@@ -1,14 +1,14 @@
 {
-  "name": "Project",
+  "name": "Limelight",
   "version": "1.0.0",
-  "description": "Website for Project",
+  "description": "Website for Limelight",
   "main": "index.js",
   "scripts": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repo.com.git"
+    "url": "git://github.com/sharpmachine/limelighthealth.com.git"
   },
   "keywords": [
     "clean",
@@ -20,9 +20,9 @@
   "author": "Jesse Kade",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/username/repo.com/issues"
+    "url": "https://github.com/sharpmachine/limelighthealth.com/issues"
   },
-  "homepage": "https://github.com/username/repo.com",
+  "homepage": "https://github.com/sharpmachine/limelighthealth.com",
   "devDependencies": {
     "grunt": "^0.4.4",
     "grunt-contrib-jshint": "~0.4.3",

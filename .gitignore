@@ -25,5 +25,8 @@ config.php
 .vagrant/
 html/
 
-#Grunt
+# Grunt
 node_modules/
+
+# Bower
+bower_components/
