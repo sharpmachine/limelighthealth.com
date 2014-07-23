@@ -24,3 +24,6 @@ config.php
 #Vagrant
 .vagrant/
 html/
+
+#Grunt
+node_modules/

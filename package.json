@@ -1,0 +1,35 @@
+{
+  "name": "Project",
+  "version": "1.0.0",
+  "description": "Website for Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repo.com.git"
+  },
+  "keywords": [
+    "clean",
+    "simple",
+    "focused",
+    "beautiful",
+    "modern"
+  ],
+  "author": "Jesse Kade",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/username/repo.com/issues"
+  },
+  "homepage": "https://github.com/username/repo.com",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-watch": "~0.4.3",
+    "grunt-contrib-less": "^0.11.0",
+    "grunt-notify": "^0.2.20",
+    "grunt-contrib-imagemin": "^0.7.1"
+  }
+}

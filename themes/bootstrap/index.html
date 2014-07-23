@@ -36,11 +36,11 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ base_url }}"><img src="{{ theme_url }}/img/navbar-logo.png" width="57px" height="65px" alt="Sharp Machine Icon"></a>
+                <a class="navbar-brand" href="{{ base_url }}">Project</a>
               </div>
               <div class="navbar-collapse collapse text-right">
                 <ul class="nav navbar-nav">
-                  <li><a href="{{ base_url }}/#">Item 1</a></li>
+                  <li><a href="{{ base_url }}/theme">Theme</a></li>
                   <li><a href="{{ base_url }}/#">Item 2</a></li>
                   <li><a href="{{ base_url }}/#">Item 3</a></li>
                 </ul>
@@ -51,7 +51,9 @@
         <!-- END: Navigation -->
 
         <!-- START: Content -->
-        {{ content }}
+        <div class="container">
+          {{ content }}
+        </div>
         <!-- END: Content -->
 
       </div><!-- END: #wrap -->
