@@ -1,0 +1,619 @@
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+
+@import "variables.less";
+@import "mixins.less";
+
+/*..................................the usual */
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  padding-top: 93px;
+  .animation(fadein 1s);
+}
+
+// Page fade in
+@keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+    opacity:0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// Sticky footer
+@footer-height: 462px;
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -@footer-height;
+  padding: 0 0 @footer-height;
+}
+
+/*..................................the buttons */
+@btn-border-width: 2px;
+
+.btn {
+  color: @brand-cream;
+  .libre();
+  background-color: transparent;
+  border: @btn-border-width solid;
+  border-radius: 0;
+  .transition(all ease 0.2s);
+
+  .right-arrow,
+  .left-arrow {
+    position: relative;
+    .transition(all ease 0.2s);
+  }
+
+  .right-arrow {
+    right: 0;
+  }
+
+  .left-arrow {
+    left: 0;
+  }
+
+  &:hover {
+    color: @brand-cream;
+    .transition(all ease 0.2s);
+
+    .right-arrow,
+    .left-arrow {
+      .transition(all ease 0.2s);
+    }
+
+    .right-arrow {
+      right: -10px;
+    }
+
+    .left-arrow {
+      left: -10px;
+    }
+  }
+}
+
+.btn-red {
+  color: @brand-red;
+  border-color: @brand-red;
+
+  &:hover {
+    background-color: @brand-red;
+  }
+}
+
+.btn-cream {
+  color: @brand-cream;
+  border-color: @brand-cream;
+
+  &:hover {
+    background-color: @brand-red;
+    border-color: @brand-red;
+  }
+}
+
+.btn-black {
+  &:hover {
+    background-color: @brand-black;
+  }
+}
+
+.btn-lg {
+  padding: 10px 42px;
+  font-size: 24px;
+}
+
+.btn-block {
+  padding-left: 0;
+  padding-right: 0
+}
+
+/*..................................the navbar */
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-fixed-top {
+  border-width: 0;
+}
+
+.navbar-inverse {
+  background-color: @brand-black;
+
+  .navbar-nav {
+    margin-top: 22px;
+
+    & > li > a {
+      color: @brand-cream;
+      font-family: 'FG Medium';
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
+      &:hover {
+        color: lighten(@brand-red, 10%);
+      }
+    }
+  }
+
+  .navbar-collapse {
+    // min-height: 93px;
+    border: 0;
+  }
+
+  .navbar-toggle {
+    margin-top: 28px;
+    border: 0;
+
+    &:hover,
+    &:focus {
+      outline: 0;
+      background-color: transparent;
+
+      .icon-bar {
+        background-color: darken(@brand-cream, 10%);
+        .transition(all ease 0.2s);
+      }
+    }
+    .icon-bar {
+      width: 30px;
+      margin-bottom: 7px;
+      background-color: @brand-cream;
+      border-radius: 0;
+      .transition(all ease 0.2s);
+    }
+  }
+}
+
+// .navbar-brand {
+//   .transition(none);
+// }
+
+/*..................................the nav pills */
+.nav-pills {
+  width: 132px;
+
+  & li > a {
+    margin-top: 27px;
+    .btn();
+    .btn-cream();
+  }
+}
+
+/*..................................the page headers */
+.page-header {
+  margin: 0;
+  padding: @padding-base-horizontal*3 0;
+  color: @brand-cream;
+  // background: url(../img/lion2.jpg) center -140px no-repeat;
+  background: url(../img/Lion_Jake.jpg) center -140px no-repeat;
+  background-size: cover;
+  border: 0;
+
+  @media (max-width: @screen-xs-max) {
+    background-position: center top;
+  }
+
+  h1 {
+    line-height: 1;
+  }
+
+  p {
+    color: @brand-cream;
+    .libre;
+    text-shadow: 1px 1px 1px @brand-black;
+    font-size: 18px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .btn {
+    margin-top: @padding-base-horizontal;
+  }
+}
+
+.page-header-subtitle{
+  .fg-medium();
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+
+/*..................................the belief blockquotes */
+.diamond {
+  .square(70px);
+  position: relative;
+  top: -135px;
+  margin: 0 auto -100px;
+  background-color: @brand-blue;
+  text-align: center;
+  .rotate(45deg);
+
+  p {
+    position: relative;
+    top: -10px;
+    left: 18px;
+    color: @brand-cream;
+    font-size: 100px !important;
+    text-transform: lowercase;
+    .rotate(-45deg);
+  }
+}
+
+.diamond-border {
+  .square(62px);
+  position: relative;
+  top: 4px;
+  left: 4px;
+  border: 1px solid @brand-cream;
+}
+
+.well {
+  margin: 0;
+  color: @brand-cream;
+  .libre();
+  text-align: center;
+  background: url(../img/Lamp_Jake.jpg) center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0;
+  border-radius: 0;
+
+  @media (min-width: 0) and (max-width: @screen-sm) {
+    background-attachment: scroll;
+  }
+
+  p {
+    margin-bottom: -15px;
+    font-size: 28px;
+
+    @media (max-width: @screen-xs-max) {
+      font-size: 20px;
+    }
+  }
+
+  .accent {
+    width: 100%;
+    height: 40px;
+    margin: 21px 0 -70px;
+    background: url(../img/well-accent.svg) 20px center no-repeat;
+  }
+}
+
+.well-lg {
+  padding: 100px 0;
+}
+
+/*..................................the work piece */
+.work-piece {
+  margin-bottom: 30px;
+  background-color: @brand-cream;
+
+  a {
+    img {
+      .opacity(0.6);
+      .transition(all ease 0.2s);
+      .backface-visibility(hidden);
+
+      @media (max-width: @screen-xs-max) {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+
+    &:hover {
+      img {
+        .opacity(1);
+        .transition(all ease 0.2s);
+      }
+    }
+  }
+
+  @media (max-width: @screen-xs-max) {
+    margin-bottom: 15px;
+  }
+}
+
+/*..................................the modal */
+// .md-modal {
+//   top: 50%;
+//   @media (max-width: @screen-xs-max) {
+//     // top: 30%;
+//     margin-top: -100px;
+//   }
+// }
+
+
+.md-content {
+  // padding-bottom: 80px;
+  // min-height: 450px !important;
+  color: @brand-cream;
+  background-color: @brand-black;
+
+  h3 {
+    color: @brand-cream;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  ul {
+    padding-left: 15px;
+    list-style-type: circle;
+    li {
+      .libre();
+    }
+  }
+
+  .close-box {
+    height: 22px;
+    margin: -56px 0 30px;
+
+    span {
+      color: @brand-red;
+      font-size: 38px;
+      line-height: 1;
+      cursor: pointer;
+    }
+  }
+}
+
+.md-overlay {
+  background-color: @brand-black;
+  background-repeat: no-repeat;
+  -webkit-background-size: 555px 555px;
+  background-size: 555px 555px;
+}
+
+.md-show ~ .md-overlay {
+  background-position: bottom -200px left -200px;
+}
+
+.md-modal {
+  overflow-x: hidden;
+
+  @media (max-width: @screen-xs-max) {
+    overflow-x: scroll;
+  }
+
+}
+
+/*..................................the footer */
+.footer {
+  padding: 41px 0;
+  color: @brand-cream;
+  font-family: 'FG Compressed';
+  background: url(../img/printing-press2.jpg) bottom center no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-transform: uppercase;
+
+  @media (min-width: 0) and (max-width: @screen-sm) {
+    background-attachment: scroll;
+  }
+
+  h2 {
+    margin: 0 0 -8px;
+    color: @brand-cream;
+    font-size: 55px;
+  }
+
+  a {
+    color: @brand-cream;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.dividing-line {
+  position: relative;
+  top: 12px;
+  width: 85px;
+  padding-left: 3px;
+  border-top: 2px solid @brand-red;
+
+  &.right {
+    float: right;
+    top: 10px;
+    right: 3px;
+    margin-bottom: -12px;
+  }
+}
+
+.contact-deets {
+  width: 241px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.contact-method {
+  .libre();
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: lowercase;
+}
+
+.contact-detail {
+  letter-spacing: 1.5px;
+
+  &.phone {
+    margin: -10px 0 -15px;
+    font-size: 53px;
+  }
+
+  &.email {
+    margin: 1px 0 -6px;
+    font-size: 19px;
+  }
+
+  address {
+    margin: 2px 0 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid @brand-red;
+
+    span {
+      display: block;
+      line-height: 1;
+    }
+
+    .mccormick-mansion {
+      font-size: 33px;
+    }
+
+    .street {
+      font-size: 33px;
+    }
+
+    .city-state-zip {
+      font-size: 37px;
+    }
+  }
+}
+
+.social-media.cream {
+  margin-top: 2px;
+  text-align: center;
+
+  a {
+    display: inline-block;
+    .square(50px);
+    margin-right: 10px;
+    color: @brand-cream;
+    font-size: 20px;
+    border: 2px solid @brand-cream;
+    border-radius: 50%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: @brand-red;
+      border-color: @brand-red;
+    }
+
+    i {
+      position: relative;
+      top: 11px;
+    }
+  }
+}
+
+.social-media.red {
+  margin-top: 25px;
+  
+
+  a {
+    display: inline-block;
+    .square(50px);
+    margin-right: 10px;
+    color: @brand-red;
+    font-size: 20px;
+    border: 2px solid @brand-red;
+    border-radius: 50%;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      color: @brand-black;
+      border-color: @brand-black;
+    }
+
+    i {
+      position: relative;
+      top: 11px;
+    }
+  }
+}
+
+/*..................................the global utilities */
+.anchor {
+  position: relative;
+  top: -93px;
+  visibility: hidden;
+}
+
+// BACKGOUNDS
+.bg-brand-red {
+  color: @brand-cream;
+  background-color: @brand-red;
+}
+
+.bg-brand-black {
+  color: @brand-cream;
+  background-color: @brand-black;
+}
+
+.bg-brand-white {
+  background-color: @brand-white;
+}
+
+/*..................................the responsive stuff */
+@media (max-width: @screen-xs-max) {
+
+  .btn {
+    .btn-block();
+    max-width: 345px;
+    margin: 0 auto;
+  }
+
+  .work-piece {
+    margin-bottom: 15px;
+  }
+
+
+}
+
+/*..................................the other */
+figcaption {
+  padding: 15px 0;
+  font-size: 12px;
+}

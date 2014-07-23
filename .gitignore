@@ -15,12 +15,12 @@ Thumbs.db
 *.swp
 
 # User themes
-themes/*
 !themes/index.html
-!themes/default/*
+themes/default/
 
 # User config
 config.php
 
 #Vagrant
 .vagrant/
+html/

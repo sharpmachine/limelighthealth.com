@@ -1,0 +1,633 @@
+/*..................................the home page */
+// JUMBOTRON
+.jumbotron {
+  height: 800px;
+  margin-bottom: 0;
+  background: url(../img/Main_Jake.jpg) center -150px no-repeat fixed;
+  background-size: cover;
+
+  @media (min-width: 0) and (max-width: @screen-sm) {
+    background-position: right center;
+    background-attachment: scroll;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    height: 697px;
+  }
+
+  @media (min-width: @screen-sm-min) {
+    height: 647px;
+  }
+
+  .logo {
+    margin-bottom: 18px;
+  }
+
+  h2 {
+    margin: 0 0 @padding-base-horizontal*4;
+    color: @brand-cream;
+    .libre();
+    font-size: 23px;
+    text-shadow: 1px 1px 1px @brand-black;
+    text-transform: none;
+
+    @media (min-width: @screen-sm-min) {
+      font-size: 22px;
+    }
+  }
+}
+
+.jumbo-call {
+  position: relative;
+  z-index: 2;
+
+  @media (max-width: @screen-xs-max) {
+    margin-top: 30px;
+  }
+}
+
+.down-arrow {
+  margin-top: -1px;
+}
+
+
+// WHAT WE DO SECTION
+
+// modal
+.md-show {
+  &#modal-branding ~ .md-overlay {
+    background-image: url(../img/branding.svg);
+  }
+
+  &#modal-print ~ .md-overlay {
+    background-image: url(../img/print.svg);
+  }
+
+  &#modal-web ~ .md-overlay {
+    background-image: url(../img/web.svg);
+  }
+
+  &#modal-messaging ~ .md-overlay {
+    background-image: url(../img/messaging.svg);
+  }
+}
+
+#modal-branding {
+  height: 420px;
+}
+
+#modal-print {
+  height: 459px;
+}
+
+#modal-web {
+  height: 445px;
+}
+
+#modal-messaging {
+  height: 299px;
+}
+
+
+// service boxes
+.service {
+  max-width: 375px;
+  margin-bottom: 30px;
+
+  @media (max-width: @screen-xs-max) {
+    margin: 0 auto 15px;
+  }
+}
+
+.service-inner {
+  height: 220px;
+  padding: 15px;
+  color: @brand-cream;
+  background-position: top -75px right -75px;
+  background-color: @brand-black;
+  background-repeat: no-repeat;
+  -webkit-background-size: 180px 180px;
+  background-size: 180px 180px;
+  cursor: pointer;
+  .transition(all ease 0.2s);
+
+  @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    background-position: top -60px right -60px;
+    -webkit-background-size: 150px 150px;
+    background-size: 150px 150px;
+  }
+
+  h3 {
+    bottom: 75px;
+    margin: 0;
+    color: @brand-cream;
+    font-size: 32px;
+  }
+
+  &.service-branding {
+    background-image: url(../img/branding.svg);
+  }
+
+  &.service-print {
+    background-image: url(../img/print.svg);
+  }
+
+  &.service-web {
+    background-image: url(../img/web.svg);
+  }
+
+  &.service-messaging {
+    background-image: url(../img/messaging.svg);
+  }
+
+  &:hover {
+    color: @brand-cream;
+    background-position: top -60px right -60px;
+    background-color: @brand-red;
+    .transition(all ease 0.2s);
+
+    h3 {
+      color: @brand-cream;
+      .transition(all ease 0.2s);
+    }
+
+    @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+      background-position: top -50px right -50px;
+    }
+  }
+}
+
+.service-content {
+  padding-top: 30px;
+  padding-right: 15px;
+  position: absolute;
+  bottom: 15px;
+  color: @brand-cream;
+
+  p {
+    margin-bottom: 0;
+    padding-right: 15px;
+    .libre();
+  }
+
+  &:hover {
+    color: @brand-cream;
+    text-decoration: none;
+  }
+}
+
+// POWER OF SIMPLE
+
+#four-steps {
+  .btn-lg {
+    font-size: 18px;
+  }
+}
+
+.four-steps-image {
+  margin-bottom: 20px;
+}
+
+// SOME OF OUR CLIENTS SECTION
+
+#clients {
+  @media (max-width: @screen-xs-max) {
+    padding-bottom: 30px;
+  }
+}
+
+.client-logo {
+  height: 100px;
+  
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    margin-bottom: 30px;
+  }
+}
+
+// CLIENT TESTIMONIES
+
+.client-testimonial,
+.item {
+  p {
+    margin-top: 30px;
+    .libre();
+    font-size: 20px;
+
+    @media (max-width: @screen-xs-max) {
+      text-align: center;
+    }
+
+    cite {
+      float: right;
+      .libre();
+      margin-top: @padding-base-horizontal;
+      font-size: 14px;
+      text-transform: uppercase;
+
+      @media (max-width: @screen-xs-max) {
+        float: none;
+      }
+    }
+  }
+}
+
+.item {
+  p {
+    margin-top: 38.5px;
+
+    @media (max-width: @screen-sm-min) {
+      margin-top: 10px;
+    }
+
+    @media (max-width: @screen-xs-max) {
+      text-align: center;
+    }
+  }
+}
+
+a.carousel-control {
+  color: @brand-cream;
+  .opacity(1);
+  .libre();
+  font-style: normal;
+  text-shadow: none;
+
+  i {
+    position: absolute;
+    top: calc(~'50% - 100px / 2');
+    font-size: 100px;
+  }
+
+  &.left,
+  &.right {
+    background: none;
+  }
+
+  &:hover {
+    color: @brand-black;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    display: none;
+  }
+}
+
+.carousel-indicators {
+
+  li {
+    // border-color: @brand-cream;
+    background-color: @brand-cream;
+  }
+
+  .active {
+    background-color: @brand-black;
+    border: 0;
+  }
+}
+
+// .carousel .item {
+//   .opacity(0);
+//   .transition(0.4s ease opacity);
+// }
+
+// .carousel .active {
+//   .opacity(1);
+//   .transition(0.4s ease opacity);
+// }
+
+
+// RECENT WORK SECTION
+
+#recent-work {
+  // margin-bottom: @padding-base-horizontal*6;
+
+  // @media (max-width: @screen-xs-max) {
+  //   margin-bottom: 15px;
+  // }
+}
+
+
+/*..................................the work piece page */
+
+
+// .work-awards {
+//   img {
+//     margin-right: @padding-base-horizontal*2;
+
+//     &:last-child {
+//       margin-right: 0;
+//     }
+//   }
+// }
+
+span.lowercase {
+  display: inline !important;
+  text-transform: lowercase;
+}
+
+.brand-colors {
+
+}
+
+.color-block {
+  margin-bottom: 15px;
+  height: 140px;
+}
+
+.piece-showcase {
+  padding: 90px 0;
+}
+
+.piece-bg {
+  height: 450px;
+  padding-top: 90px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  @media (min-width: 0) and (max-width: @screen-sm) {
+    background-attachment: scroll;
+  }
+}
+
+.piece-screenshot {
+  margin-top: -(225px + 60px);
+}
+
+// .work-pager {
+//   padding: 60px 0;
+
+//   .pager li > a, .pager li > span {
+//     .btn();
+//     .btn-black();
+//     .btn-lg();
+//     border-radius: 0;
+//   }
+// }
+
+#work-pager {
+  @media (max-width: @screen-xs-max) {
+    padding-bottom: 45px;
+
+    .btn-block {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.logo-bg {
+  padding: 30px;
+  img {
+    width: 100%;
+  }
+}
+
+.up-triangle {
+  font-style: normal;
+}
+
+aside {
+  margin-bottom: 30px;
+}
+
+/*..................................the services page */
+.Services {
+  .page-header {
+    min-height: 221px;
+  }
+}
+
+.services-options {
+  margin-top: @padding-base-horizontal*2;
+
+  a.btn {
+    background-position: bottom -50px right -50px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100px;
+    background-size: 100px;
+
+    &:hover {
+      background-color: @brand-red;
+      background-position: bottom -25px right -40px;
+    }
+
+    &.branding-bg {
+      background-image: url(../img/branding.svg);
+    }
+
+    &.print-bg {
+      background-image: url(../img/print.svg);
+    }
+
+    &.web-bg {
+      background-image: url(../img/web.svg);
+    }
+
+    &.messaging-bg {
+      background-image: url(../img/messaging.svg);
+    }
+  }
+}
+
+@even-steven: -10px;
+@offset: 277.5px;
+@bgi-size: 555px;
+
+.service-description {
+  padding: @padding-base-horizontal*8 0;
+  background-position: -@offset -@offset;
+  background-repeat: no-repeat;
+  -webkit-background-size: @bgi-size;
+  background-size: @bgi-size;
+
+  h1 {
+    margin-top: 0;
+    .libre();
+    text-transform: none;
+  }
+
+  @media (max-width: @screen-xs-max) {
+    h1 {
+      font-size: 3.5em;
+    }
+  }
+
+  @media (max-width: @screen-sm-min) {
+    padding: 60px 0;
+
+    h1 {
+      margin: 30px 0;
+    }
+
+    h1,
+    p {
+      text-align: center;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// If copy is short, then first value will be negative
+// If image is short, then first value will be positive
+
+.big-branding {
+  background-image: url(../img/branding-white.svg);
+
+  .short {
+    margin-top: @even-steven + (183px / 2);
+  }
+}
+
+.big-print {
+  background-image: url(../img/print.svg);
+  background-position: top -@offset right -@offset;
+
+  .short {
+    margin-top: @even-steven + (243px / 2);
+  }
+}
+
+.big-web {
+  background-image: url(../img/web-white.svg);
+
+  .short {
+    margin-top: @even-steven + (90px / 2);
+  }
+}
+
+.big-messaging {
+  background-image: url(../img/messaging.svg);
+  background-position: top -@offset right -@offset;
+
+  .short {
+    margin-top: @even-steven + (158px / 2);
+  }
+}
+
+@media (max-width: @screen-sm-min) {
+  .short {
+    margin-top: 0 !important;
+  }
+}
+
+#misc-info {
+  @media (max-width: @screen-xs-max) {
+    text-align: center;
+
+    img {
+      .center-block();
+    }
+
+    .easy-billing {
+      margin-bottom: 30px;
+    }
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+}
+
+.services-anchor {
+  position: relative;
+  top: -93px + (50 / 2);
+  visibility: hidden;
+
+  // @media (max-width: @screen-xs-max) {
+  //   .anchor();
+  // }
+
+  @media (max-width: @screen-sm-min) {
+    .anchor();
+  }
+}
+
+/*..................................the work page */
+#work {
+  padding-bottom: 30px;
+
+  @media (max-width: @screen-xs-max) {
+    padding-bottom: 60px;
+  }
+}
+
+/*..................................the about page */
+
+// THE TEAM
+
+.person {
+  margin-bottom: 30px;
+  color: @brand-cream;
+  background-color: @brand-black;
+
+  h2 {
+    margin-bottom: 0;
+    color: @brand-cream;
+    font-size: 32px;
+  }
+
+  img {
+    .opacity(0.6);
+    width: 100%;
+  }
+}
+
+.person-info {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 55px;
+}
+
+.position {
+  .libre();
+}
+
+.personal-contact {
+  a {
+    padding: 10px;
+    color: @brand-cream;
+    font-size: 22px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    &:hover {
+      color: @brand-red;
+    }
+  }
+}
+
+
+// THE STUDIO
+
+#studio {
+  img {
+    margin-bottom: 30px;
+  }
+}
+
+
+// FAQ
+
+#faq {
+  // margin-bottom: @padding-base-horizontal*4;
+
+  .headline {
+    // margin-top: 0;
+  }
+
+  h4 {
+    .libre();
+  }
+}
