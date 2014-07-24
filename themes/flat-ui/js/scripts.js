@@ -15,6 +15,14 @@ $(document).ready(function(){
 		});
 	});
 
+	$("button[data-dismiss=modal]").click(function(){
+		$('#myModal iframe').attr("src", jQuery("#myModal iframe").attr("src"));
+	});
+
+	$("a[data-toggle=modal]").click(function(){
+		$('#myModal iframe').vimeo("play");
+	});
+
 });
 
 
