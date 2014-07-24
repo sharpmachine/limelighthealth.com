@@ -42,17 +42,17 @@ module.exports = function(grunt) {
             files: {
               'themes/flat-ui/js/plugins.min.js': [
               'themes/flat-ui/bootstrap/js/transition.js',
-              'themes/flat-ui/bootstrap/js/alert.js',
+              // 'themes/flat-ui/bootstrap/js/alert.js',
               'themes/flat-ui/bootstrap/js/button.js',
-              'themes/flat-ui/bootstrap/js/carousel.js',
+              // 'themes/flat-ui/bootstrap/js/carousel.js',
               'themes/flat-ui/bootstrap/js/collapse.js',
-              'themes/flat-ui/bootstrap/js/dropdown.js',
+              // 'themes/flat-ui/bootstrap/js/dropdown.js',
               'themes/flat-ui/bootstrap/js/modal.js',
-              'themes/flat-ui/bootstrap/js/tooltip.js',
-              'themes/flat-ui/bootstrap/js/popover.js',
-              'themes/flat-ui/bootstrap/js/scrollspy.js',
-              'themes/flat-ui/bootstrap/js/tab.js',
-              'themes/flat-ui/bootstrap/js/affix.js',
+              // 'themes/flat-ui/bootstrap/js/tooltip.js',
+              // 'themes/flat-ui/bootstrap/js/popover.js',
+              // 'themes/flat-ui/bootstrap/js/scrollspy.js',
+              // 'themes/flat-ui/bootstrap/js/tab.js',
+              // 'themes/flat-ui/bootstrap/js/affix.js',
               'themes/flat-ui/js/vimeo.js'
               ],
               'themes/flat-ui/js/scripts.min.js': [

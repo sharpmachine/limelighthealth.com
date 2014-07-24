@@ -130,7 +130,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="simple-quote" class="feature">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 col-md-offset-2 va-parent">
+			<div class="col-sm-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-danger">Simple Quote</h3>
@@ -138,8 +138,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<img src="themes/flat-ui/images/ipad.svg" class="img-responsive" alt="iPad">
+			<div class="col-sm-6">
+				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
@@ -150,7 +150,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="group-tools" class="feature">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 col-md-push-4 col-md-offset-2 va-parent">
+			<div class="col-sm-6 col-md-push-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-danger">Group Tools</h3>
@@ -158,8 +158,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 col-md-pull-4">
-				<img src="themes/flat-ui/images/ipad.svg" class="img-responsive" alt="iPad">
+			<div class="col-sm-6 col-md-pull-6">
+				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
@@ -170,7 +170,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="calculators" class="feature">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 col-md-offset-2 va-parent">
+			<div class="col-sm-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-danger">Calculators</h3>
@@ -178,8 +178,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<img src="themes/flat-ui/images/ipad.svg" class="img-responsive" alt="iPad">
+			<div class="col-sm-6">
+				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
@@ -190,7 +190,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="doctor-finder" class="feature">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 col-md-push-4 col-md-offset-2 va-parent">
+			<div class="col-sm-6 col-md-push-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-danger">Doctor Finder</h3>
@@ -198,8 +198,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 col-md-pull-4">
-				<img src="themes/flat-ui/images/ipad.svg" class="img-responsive" alt="iPad">
+			<div class="col-sm-6 col-md-pull-6">
+				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
@@ -210,7 +210,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="white-label" class="feature">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-4 col-md-offset-2 va-parent">
+			<div class="col-sm-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-danger">White Label</h3>
@@ -218,8 +218,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4">
-				<img src="themes/flat-ui/images/ipad.svg" class="img-responsive" alt="iPad">
+			<div class="col-sm-6">
+				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
