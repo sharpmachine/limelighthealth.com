@@ -1,10 +1,55 @@
 html,
 body {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  padding-top: 60px;
+	padding-top: 53px;
 }
 
-// Homepage
+section {
+	padding: 60px 0;
+}
+
+// Sign Up Form
+.sign-up {
+	input:first-child {
+		border-bottom-width: 1px;
+		.border-bottom-radius(0);
+	}
+
+	input:last-child {
+		border-top-width: 1px;
+		.border-top-radius(0);
+	}
+}
+
+#doctor-finder,
+#group-tools {
+	background-color: lighten(@turquoise, 40%);
+}
+
+#simple-quote,
+#white-label,
+#calculators {
+	background-color: lighten(@pomegranate, 40%);
+}
+
+#sign-up {
+	background-color: @turquoise;
+}
+
+#footer {
+	background-color: @clouds;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	small {
+		color: @gray;
+	}
+}
