@@ -10,7 +10,6 @@ vendor/twig/twig/test/*
 # OS Generated
 .DS_Store*
 ehthumbs.db
-Icon?
 Thumbs.db
 *.swp
 
