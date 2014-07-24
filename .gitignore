@@ -17,12 +17,10 @@ Thumbs.db
 !themes/index.html
 themes/default/
 
-# User config
-config.php
-
 #Vagrant
 .vagrant/
 html/
+default/
 
 # Grunt
 node_modules/
