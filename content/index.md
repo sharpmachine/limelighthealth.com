@@ -16,12 +16,11 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-5">
-				<h1>Introducing QuotePad &trade;</h1>
-				<h2 class="text-danger"><em>Change is now in your hands</em></h2>
-				<p class="lead">Grow your business with qualified sales leads.</p>
+				<h1>Change is now in your hands</h1>
+				<p class="lead">Introducing <strong>QuotePad &trade;</strong>  <br>The first <em>live</em>, all-in-one quote engine for health insurance agents.</p>
 				<div class="row">
 					<div class="col-sm-6">
-						<a href="#" class="btn btn-hg btn-info btn-block" data-toggle="modal" data-target="#myModal">Watch Video <span class="fui-triangle-right-large"></span></a>
+						<a href="#" class="btn btn-hg btn-success btn-embossed btn-block" data-toggle="modal" data-target="#myModal">Watch Video <span class="fui-triangle-right-large"></span></a>
 					</div>
 					<div class="col-sm-6">
 						<a href="#signup" class="btn btn-hg btn-danger btn-embossed btn-block">Sign Up <span class="fui-triangle-down"></span></a>
@@ -32,13 +31,25 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 				</div>
 			</div>
 			<div class="col-sm-7">
-				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
+				<img src="themes/flat-ui/images/ifamily-hug.svg" class="img-responsive center-block" alt="iPad">
 			</div>
 		</div>
 	</div>
 </div>
 
-<section id="pain-points" class="text-center">
+<section id="devices" class="text-center hidden">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h3>Available on all your devices</h3>
+				<br>
+				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive center-block" alt="iPad">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="pain-points" class="text-center hidden">
 	<div class="container">
 		<div class="row text-center">
 			<h2>Agents.  Do you know the answers to these complex client questions?</h2>
@@ -58,22 +69,27 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 	</div>
 </section>
 
-<section id="benefits" class="text-center bg-clouds">
+<section id="benefits" class="text-center">
 	<div class="container">
 		<div class="row">
 			<h2>Become the agent of tomorrow, today.</h2>
-			<h3>QuotePad will make your life easy</h3>
-			<div class="col-sm-2 col-md-4">
-				<img src="themes/flat-ui/images/icons/calculator.svg" class="img-responsive center-block" alt=""><br>
-				<p class="lead">Grow your business with qualified sales leads</p>
+			<br>
+			<!-- <h3><strong>QuotePad</strong> will make your life easy</h3> -->
+			<div class="col-sm-2 col-md-3">
+				<img src="themes/flat-ui/images/icons/medal.svg" class="img-responsive center-block" alt=""><br>
+				<p class="lead">Use one system for all health insurance options</p>
 			</div>
-			<div class="col-sm-2 col-md-4">
-				<img src="themes/flat-ui/images/icons/responsive.svg" class="img-responsive center-block" alt=""><br>
-				<p class="lead">Easily answer those tough questions</p>
+			<div class="col-sm-2 col-md-3">
+				<img src="themes/flat-ui/images/icons/clocks.svg" class="img-responsive center-block" alt=""><br>
+				<p class="lead">Save hours of time by ditching those spreadsheets</p>
 			</div>
-			<div class="col-sm-2 col-md-4">
-				<img src="themes/flat-ui/images/icons/shield.svg" class="img-responsive center-block" alt=""><br>
-				<p class="lead">Look like a genius</p>
+			<div class="col-sm-2 col-md-3">
+				<img src="themes/flat-ui/images/icons/goal.svg" class="img-responsive center-block" alt=""><br>
+				<p class="lead">Simplify the decision process for your clients</p>
+			</div>
+			<div class="col-sm-2 col-md-3">
+				<img src="themes/flat-ui/images/icons/bulb.svg" class="img-responsive center-block" alt=""><br>
+				<p class="lead">Answers for your clients are at your finger tips</p>
 			</div>
 		</div>
 	</div>
@@ -81,7 +97,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 
 <section id="testimonials">
 	<div class="container">
-		<h2 class="text-center">What agent using QuotePad are saying</h2>
+		<h2 class="text-center">What agents using QuotePad are saying</h2>
+		<br>
 		<div class="row">
 			<div class="col-sm-2 col-md-4">
 				<div class="row">
@@ -91,7 +108,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					<div class="col-xs-8">
 						<div class="quote-triangle"></div>
 						<div class="twitter-quote">
-							<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ut.</small></p>
+							<p><small>I am very excited about the functionality of this product. To best serve our clients we need to provide thorough analysis and demonstrate creativity with prospective clients.</small></p>
 						</div>
 					</div>
 				</div>
@@ -104,7 +121,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					<div class="col-xs-8">
 						<div class="quote-triangle"></div>
 						<div class="twitter-quote">
-							<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ut.</small></p>
+							<p><small>Limelight just changed the game. My agency demands cutting-edge tools and this technology is exactly what we needed! We will love being in the Limelight with our clients.</small></p>
 						</div>
 					</div>
 				</div>
@@ -117,7 +134,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					<div class="col-xs-8">
 						<div class="quote-triangle"></div>
 						<div class="twitter-quote">
-							<p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, ut.</small></p>
+							<p><small>It's about time! I've been waiting for a quote engine that is powerful, flexible and works in my office as well as on my mobile devices when I'm meeting with clients.</small></p>
 						</div>
 					</div>
 				</div>
@@ -129,12 +146,14 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <!-- START: features -->
 <section id="simple-quote" class="feature">
 	<div class="container">
+		<h1 class="text-center">QuotePad Features Include:</h1>
+		<br>
 		<div class="row">
 			<div class="col-sm-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-danger">Simple Quote</h3>
-						<p class="lead">Smart mobile quote engine to show all rates and benefits.</p>
+						<h3 class="text-success">Simple Quoting</h3>
+						<p class="lead">Smart quote engine creates proposal PDFs with a live quoting interface.</p>
 					</div>
 				</div>
 			</div>
@@ -153,8 +172,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			<div class="col-sm-6 col-md-push-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-danger">Group Tools</h3>
-						<p class="lead">Quick and easy tools to compare Group vs. Individual options.  Save your early renewals.</p>
+						<h3 class="text-success">Small Group Tools</h3>
+						<p class="lead">Quick and easy tools to compare all options (PPOs, HMOs, HSAs, HRAs & Group vs. Individual On & Off Exchange).</p>
 					</div>
 				</div>
 			</div>
@@ -173,8 +192,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			<div class="col-sm-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-danger">Calculators</h3>
-						<p class="lead">Simple and intuitive tools to calculate eligibility for subsidies, Medicaid, or tax penalities.</p>
+						<h3 class="text-success">Calculators</h3>
+						<p class="lead">Simple and intuitive tools to calculate subsidy eligibility for employees and individuals, as well as Medi-Cal, and tax penalities.</p>
 					</div>
 				</div>
 			</div>
@@ -187,14 +206,14 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 
 <hr class="tilt tilt-up">
 
-<section id="doctor-finder" class="feature">
+<section id="white-label" class="feature">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-md-push-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-danger">Doctor Finder</h3>
-						<p class="lead">"Real-time" search and comparison of multiple carrier provider database.  Full and narrow networks!</p>
+						<h3 class="text-success">White Label</h3>
+						<p class="lead">Upload your logo and colors and quote in the limelight.</p>
 					</div>
 				</div>
 			</div>
@@ -205,36 +224,17 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 	</div>
 </section>
 
-<hr class="tilt tilt-down">
-
-<section id="white-label" class="feature">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-6 va-parent">
-				<div class="va-wrapper">
-					<div class="va-inner">
-						<h3 class="text-danger">White Label</h3>
-						<p class="lead">Simple private label mobile solutions.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6">
-				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
-			</div>
-		</div>
-	</div>
-</section>
-
 <div id="signup" class="anchor"></div>
 <section id="sign-up" class="text-center bg-silver">
 	<div class="container">
+		<h3>Don't wait.  Innovate.</h3>
 		<div class="row">
 			<div class="col-sm-6">
-				<p class="lead">Simple tools across all your devices</p>
+				<p class="lead">QuotePad is available on all your devices</p>
 				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive" alt="iPad">
 			</div>
 			<div class="col-sm-4 col-md-offset-1">
-				<p class="lead">Sign Up Today</p>
+				<p class="lead">Sign Up For Your Account Today</p>
 				<form action="" class="sign-up">
 					<div class="form-group">
 						<input type="email" class="form-control input-hg" id="Name" placeholder="Your Name">
