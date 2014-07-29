@@ -3,15 +3,6 @@ Title: Health. Insurance. Simplified
 Description: We offer powerful technology, qualified sales leads and expert compliance solutions to help grow your agency.
 */
 
-<!-- <div class="jumbotron text-center">
-	<h1>Sell More. Sell Easier.  Sell Well.</h1>
-	<div class="video-container">
-		<iframe src="//player.vimeo.com/video/88558047?title=0&amp;byline=0&amp;portrait=0&amp;color=e3e3e3" width="600" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</div>
-	<h2>Grow your business with qualified sales leads.</h2>
-	<a href="#" class="btn btn-lg btn-danger">Sign Up</a>
-</div> -->
-
 <div class="jumbotron">
 	<div class="container">
 		<div class="row">
