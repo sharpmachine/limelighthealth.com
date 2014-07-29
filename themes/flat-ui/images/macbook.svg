@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 496.7 285.7" style="enable-background:new 0 0 496.7 285.7;" xml:space="preserve">
+<g>
+	<path style="fill:#1A1A1A;" d="M436.6,0H60.3c-7.7,0-14.2,6.3-14.2,14.2V245v8.6v12.1c0,0.4,0,1,0,1.5s0,0.6,0,1
+		c0,3.5,2.9,6.3,6.3,6.3h53.8h25.5h233.7h35.9h43.2c3.5,0,6.3-2.9,6.3-6.3c0-0.4,0-0.6,0-1s0-1,0-1.5v-12.1V245V14.2
+		C450.8,6.3,444.3,0,436.6,0z"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-102.506" y1="578.4256" x2="78.594" y2="578.4256" gradientTransform="matrix(2.0868 0 0 -2.0868 273.3847 1341.873)">
+		<stop  offset="0" style="stop-color:#932A8E"/>
+		<stop  offset="1" style="stop-color:#2AAAE2"/>
+	</linearGradient>
+	<rect x="59.5" y="16.5" style="fill:url(#SVGID_1_);" width="377.9" height="236.6"/>
+	<circle style="fill:#333333;" cx="248.3" cy="10" r="2.1"/>
+	<path style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" d="M401.1,274.4h43.2c3.5,0,6.3-2.9,6.3-6.3c0-0.4,0-0.6,0-1
+		s0-1,0-1.5v-12.1V245V14.2c0-7.7-6.3-14.2-14.2-14.2H228.5L227,1.5l81.2,269.4l1.3,2.7l55.7,0.6h35.9V274.4z"/>
+	<path style="fill:#CDCCCC;" d="M436.6,1.5c7.1,0,12.7,5.6,12.7,12.7V245v8.6v12.1c0,0.4,0,2.3,0,2.5c0,2.7-2.3,5-5,5h-43.2h-35.9
+		H131.5H106H52.2c-2.7,0-5-2.3-5-5c0-0.2,0-2.1,0-2.5v-12.1V245V14.2c0-7.1,5.6-12.7,12.7-12.7L436.6,1.5 M436.6,0H60.3
+		c-7.7,0-14.2,6.3-14.2,14.2V245v8.6v12.1c0,0.4,0,2.1,0,2.5c0,3.5,2.9,6.3,6.3,6.3h53.8h25.5h233.7h35.9h43.2
+		c3.5,0,6.3-2.9,6.3-6.3c0-0.4,0-1.9,0-2.5v-12.1V245V14.2C450.8,6.3,444.3,0,436.6,0L436.6,0z"/>
+	<path style="fill:#CDCCCC;" d="M472,270.9H283c-0.2,2.9-2.5,5.4-5.6,5.4h-58.4c-3.1,0-5.4-2.5-5.6-5.4H16.1H0v8.6
+		c0,0,6.1,6.3,24.8,6.3l-0.2-2.3h0.2v2.3h451.6v-0.2c14-0.8,19.4-5.4,20.2-6.1l0,0v-8.6H472z"/>
+	<path style="fill:#CDCCCC;" d="M277.3,276.3c3.1,0,5.4-2.5,5.6-5.4h-69.5c0.2,2.9,2.5,5.4,5.6,5.4H277.3z"/>
+	<path style="fill:#E6E6E5;" d="M1.7,280.9h492.9c1-0.6,1.5-1,1.7-1.3l0,0v-8.6h-24.4H282.8c-0.2,2.9-2.5,5.4-5.6,5.4h-58.4
+		c-3.1,0-5.4-2.5-5.6-5.4h-197H0v8.6C0,279.4,0.4,280.1,1.7,280.9z"/>
+</g>
+</svg>

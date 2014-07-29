@@ -30,14 +30,28 @@ h1, h2, h3 {
 	margin-bottom: 30px;
 }
 
+.page {
+	margin-bottom: 30px;
+}
+
+
 // Navbar
+
 .navbar {
 	min-height: 88px;
 }
 
+.navbar-nav {
+	margin-top: 20px;
+}
+
+
+// Jumbotron
+
 .jumbotron {
 	margin-bottom: 0;
-	padding-top: 90px;
+	padding: 150px 0;
+	background-color: #fff;
 }
 
 h1,
@@ -70,56 +84,137 @@ h3 {
 	}
 }
 
-// Benefits
-#benefits {
-	background-color: lighten(@clouds, 3%);
+.quote-headshot {
+	img {
+		border: 2px solid @ll-orange;
+	}
 }
 
 
 // Features
 
 .feature {
-	background-color: @clouds;
+	background-color: @ll-gray-light;
+}
+
+.ipad {
 	.va-parent {
-		// height: 472px;
 		height: 423px;
 	}
 }
 
-#simple-quote {
-	border-top: 2px dotted @orange;
-}
-
-#white-label {
-	border-bottom: 2px dotted @orange;
-}
-
-
-// Sign Up Form
-
-.sign-up {
-	input:first-child {
-		border-bottom-width: 1px;
-		.border-bottom-radius(0);
-	}
-
-	input:last-child {
-		border-top-width: 1px;
-		.border-top-radius(0);
+.iphone {
+	.va-parent {
+		height: 331px;
 	}
 }
+
+.macbook {
+	.va-parent {
+		height: 319px;
+	}
+}
+
+
+// Brand Icons
+
+@brand-icon-height: 50px;
+
+.frame {
+	height: @brand-icon-height;
+}
+
+.brand-icon {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+
+	img {
+		vertical-align: middle;
+		max-height: @brand-icon-height;
+		// max-width: 160px;
+	}
+}
+
+// .brand-icon {
+// 	vertical-align: middle;
+// }
 
 
 // Footer
 
 #footer {
 	padding: 15px 0;
-	background-color: @clouds;
+	color: white;
+	background-color: @ll-steel;
 
 	p {
 		margin-bottom: 0;
 	}
+
+	a {
+		color: white;
+		&:hover {
+			color: @ll-orange;
+		}
+	}
 }
+
+.social-media {
+	a {
+		font-size: 20px;
+		margin-left: 10px;
+	}
+}
+
+
+// ABOUT PAGE
+
+.about-page-header {
+	.page-header {
+		margin-bottom: 0;
+		border-bottom: 0;
+	}
+}
+
+.bio {
+	display: none;
+}
+
+.bio-link {
+	&:active,
+	&:focus {
+		outline: none;
+		text-decoration: none;
+	}
+}
+
+
+// FORMS
+
+.form-control {
+	&:focus {
+		border-color: @ll-green;
+	}
+}
+
+input.no-bottom-radius {
+	border-bottom-width: 1px;
+	.border-bottom-radius(0);
+}
+
+input.no-radius {
+	border-radius: 0;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+}
+
+input.no-top-radius,
+textarea.no-top-radius {
+	border-top-width: 1px;
+	.border-top-radius(0);
+}
+
 
 // UTILITIES
 
@@ -133,6 +228,28 @@ h3 {
 	background-color: @clouds;
 }
 
+.bg-ll-gray {
+	background-color: @ll-gray;
+}
+
+.bg-ll-gray-light {
+	background-color: @ll-gray-light;
+}
+
+.bg-ll-steel {
+	background-color: @ll-steel;
+}
+
+.bg-ll-blue-steel {
+	color: white;
+	background-color: @ll-blue-steel;
+}
+
+.bg-ll-green {
+	color: white;
+	background-color: @ll-green;
+}
+
 
 // Funky tilts
 
@@ -140,7 +257,7 @@ hr.tilt {
 	margin-top: 0;
 	margin-bottom: -2px;
 	border: 0;
-	border-top: 2px dotted @orange;
+	border-top: 2px dotted @ll-orange;
 
 	@tilt: 3deg;
 
@@ -190,4 +307,8 @@ hr.tilt {
 		width: 100%; 
 		height: 100%;		
 	}
+}
+
+.center-block {
+	float: none;
 }

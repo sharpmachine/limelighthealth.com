@@ -23,15 +23,15 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 						<a href="#" class="btn btn-hg btn-success btn-embossed btn-block" data-toggle="modal" data-target="#myModal">Watch Video <span class="fui-triangle-right-large"></span></a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#signup" class="btn btn-hg btn-danger btn-embossed btn-block">Sign Up <span class="fui-triangle-down"></span></a>
+						<a href="#signup" class="btn btn-hg btn-warning btn-embossed btn-block">Get Invite <span class="fui-triangle-down"></span></a>
 					</div>
 					<div class="col-xs-12">
-						<br><small><em>Coming to App Store for iOS &amp; Google Play for Android</em></small>
+						<br><small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-7">
-				<img src="themes/flat-ui/images/ifamily-hug.svg" class="img-responsive center-block" alt="iPad">
+				<img src="themes/flat-ui/images/ifamily.png" class="img-responsive center-block" alt="iPad">
 			</div>
 		</div>
 	</div>
@@ -69,7 +69,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 	</div>
 </section>
 
-<section id="benefits" class="text-center">
+<section id="benefits" class="text-center bg-ll-gray-light">
 	<div class="container">
 		<div class="row">
 			<h2>Become the agent of tomorrow, today.</h2>
@@ -102,8 +102,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 		<div class="row">
 			<div class="col-sm-2 col-md-4">
 				<div class="row">
-					<div class="col-xs-4">
-						<img src="holder.js/100x100" class="img-responsive img-circle" alt="testimonials">
+					<div class="col-xs-4 quote-headshot">
+						<img src="themes/flat-ui/images/icons/dude.svg" class="img-responsive img-circle" alt="testimonials">
 					</div>
 					<div class="col-xs-8">
 						<div class="quote-triangle"></div>
@@ -115,8 +115,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			</div>
 			<div class="col-sm-2 col-md-4">
 				<div class="row">
-					<div class="col-xs-4">
-						<img src="holder.js/100x100" class="img-responsive img-circle" alt="testimonials">
+					<div class="col-xs-4 quote-headshot">
+						<img src="themes/flat-ui/images/icons/girl.svg" class="img-responsive img-circle" alt="testimonials">
 					</div>
 					<div class="col-xs-8">
 						<div class="quote-triangle"></div>
@@ -128,8 +128,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			</div>
 			<div class="col-sm-2 col-md-4">
 				<div class="row">
-					<div class="col-xs-4">
-						<img src="holder.js/100x100" class="img-responsive img-circle" alt="testimonials">
+					<div class="col-xs-4 quote-headshot">
+						<img src="themes/flat-ui/images/icons/dude.svg" class="img-responsive img-circle" alt="testimonials">
 					</div>
 					<div class="col-xs-8">
 						<div class="quote-triangle"></div>
@@ -144,7 +144,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 </section>
 
 <!-- START: features -->
-<section id="simple-quote" class="feature">
+<section id="simple-quote" class="feature ipad">
 	<div class="container">
 		<h1 class="text-center">QuotePad Features Include:</h1>
 		<br>
@@ -152,7 +152,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			<div class="col-sm-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-success">Simple Quoting</h3>
+						<h3 class="text-success">Brillant Quoting</h3>
 						<p class="lead">Smart quote engine creates proposal PDFs with a live quoting interface.</p>
 					</div>
 				</div>
@@ -166,7 +166,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 
 <hr class="tilt tilt-up">
 
-<section id="group-tools" class="feature">
+<section id="group-tools" class="feature macbook">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-md-push-6 va-parent">
@@ -178,7 +178,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 				</div>
 			</div>
 			<div class="col-sm-6 col-md-pull-6">
-				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
+				<img src="themes/flat-ui/images/macbook.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
@@ -186,10 +186,10 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 
 <hr class="tilt tilt-down">
 
-<section id="calculators" class="feature">
+<section id="calculators" class="feature iphone">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 va-parent">
+			<div class="col-sm-6 col-sm-offset-2 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">Calculators</h3>
@@ -197,8 +197,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6">
-				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
+			<div class="col-sm-2">
+				<img src="themes/flat-ui/images/iphone.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
@@ -206,7 +206,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 
 <hr class="tilt tilt-up">
 
-<section id="white-label" class="feature">
+<section id="white-label" class="feature ipad">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6 col-md-push-6 va-parent">
@@ -225,57 +225,61 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 </section>
 
 <div id="signup" class="anchor"></div>
-<section id="sign-up" class="text-center bg-silver">
+<section id="sign-up" class="text-center bg-ll-blue-steel">
 	<div class="container">
 		<h3>Don't wait.  Innovate.</h3>
 		<div class="row">
 			<div class="col-sm-6">
-				<p class="lead">QuotePad is available on all your devices</p>
-				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive" alt="iPad">
+				<p class="lead">Available on all your devices. <br>
+					<small>Public availability starts Fall of 2014.</small></p>
+				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive" alt="iFamily"> <br>
+				<div class="row brand-icons">
+					<div class="col-sm-2 frame">
+						<div class="brand-icon">
+							<img src="themes/flat-ui/images/Apple_Logo_Black.svg" class="img-responsive" alt="Apple Logo">
+						</div>
+					</div>
+					<div class="col-sm-2 frame">
+						<div class="brand-icon">
+							<img src="themes/flat-ui/images/Android_Robot.svg" class="img-responsive" alt="Android Logo">
+						</div>
+					</div>
+					<div class="col-sm-2 frame">
+						<div class="brand-icon">
+							<img src="themes/flat-ui/images/Chrome.svg" class="img-responsive" alt="Android Logo">
+						</div>
+					</div>
+					<div class="col-sm-2 frame">
+						<div class="brand-icon">
+							<img src="themes/flat-ui/images/Safari.svg" class="img-responsive" alt="Android Logo">
+						</div>
+					</div>
+					<div class="col-sm-2 frame">
+						<div class="brand-icon">
+							<img src="themes/flat-ui/images/Opera.svg" class="img-responsive" alt="Android Logo">
+						</div>
+					</div>
+					<div class="col-sm-2 frame">
+						<div class="brand-icon">
+							<img src="themes/flat-ui/images/Firefox.svg" class="img-responsive" alt="Android Logo">
+						</div>
+					</div>
+				</div>
 			</div>
 			<div class="col-sm-4 col-md-offset-1">
-				<p class="lead">Sign Up For Your Account Today</p>
+				<p class="lead">Get invited to the pre-sale. <br>
+					<small>Be one of the first.</small></p>
 				<form action="" class="sign-up">
 					<div class="form-group">
-						<input type="email" class="form-control input-hg" id="Name" placeholder="Your Name">
-						<input type="email" class="form-control input-hg" id="email" placeholder="Your Email">
+						<label for="Name" class="sr-only">Name</label>
+						<input type="email" class="form-control input-hg no-bottom-radius" id="Name" placeholder="Your Name">
+						<label for="phone" class="sr-only">Phone</label>
+						<input type="phone" class="form-control input-hg no-radius" id="phone" placeholder="Your Phone">
+						<label for="email" class="sr-only">Email</label>
+						<input type="email" class="form-control input-hg no-top-radius" id="email" placeholder="Your Email">
 					</div>
-					<button type="submit" class="btn btn-hg btn-danger btn-embossed btn-block">Sign Up</button>
+					<button type="submit" class="btn btn-hg btn-warning btn-embossed btn-block">Get Invited</button>
 				</form>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="about" class="text-center hidden">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<h3>We're not just about apps</h3>
-				<p class="lead">We offer powerful technology, qualified sales leads and expert compliance solutions to help grow your agency.</p>
-				<div class="row text-center">
-					<h4 class="text-center">Your Team</h4>
-					<div class="col-sm-3">
-						<img src="themes/flat-ui/images/jason.jpg" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Jason T. Andrew">
-						<h5>Jason T. Andrew <br><small>CEO</small></h5>
-					</div>
-					<div class="col-sm-3">
-						<img src="holder.js/200x200" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Michael Lujan">
-						<h5>Michael Lujan <br><small>CSO</small></h5>
-					</div>
-					<div class="col-sm-3">
-						<img src="themes/flat-ui/images/garrett.jpg" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Garrett Viggers">
-						<h5>Garrett Viggers <br><small>CPO</small></h5>
-					</div>
-					<div class="col-sm-3">
-						<img src="holder.js/200x200" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Alan Leard">
-						<h5>Alan Leard <br><small>CTO</small></h5>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-2 col-sm-offset-4"><a href="about" class="btn btn-sm btn-primary btn-block">Learn more about us</a></div>
-					<div class="col-sm-2"><a href="https://twitter.com/LimelightHealth" class="btn btn-social-twitter btn-block"><span class="fui-twitter"></span> Follow us on Twitter</a></div>
-				</div>
 			</div>
 		</div>
 	</div>

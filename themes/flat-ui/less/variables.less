@@ -7,6 +7,15 @@
 //
 //##
 
+// Brand colors
+@ll-green: 									#82BE3E;
+@ll-green-dark: 						#47652A;
+@ll-orange: 								#F98705;
+@ll-steel: 									#29303B;
+@ll-blue-steel: 						#51627A;
+@ll-gray: 									#C1C7D2;
+@ll-gray-light: 						#F2F3F5;
+
 // Color swatches
 @turquoise:                 #1abc9c;
 @green-sea:                 #16a085;
@@ -38,6 +47,8 @@
 @concrete:                  #95a5a6;
 @asbestos:                  #7f8c8d;
 
+@lime: 											#61B45E;
+
 // Grays
 @gray:                      @concrete;
 @gray-light:                @silver;
@@ -46,8 +57,8 @@
 // Brand colors
 @brand-primary:             @wet-asphalt;
 @brand-secondary:           @turquoise;
-@brand-success:             @emerald;
-@brand-warning:             @sun-flower;
+@brand-success:             @ll-green;
+@brand-warning:             @ll-orange;
 @brand-danger:              @alizarin;
 @brand-info:                @peter-river;
 
@@ -65,11 +76,11 @@
 //## Settings for some of the most global styles.
 
 @body-bg:                   #fff;
-@text-color:                @brand-primary;
+@text-color:                @ll-steel;
 
 //** Global textual link color.
-@link-color:                @green-sea;
-@link-hover-color:          @turquoise;
+@link-color:                @ll-green;
+@link-hover-color:          @ll-green-dark;
 
 
 //== Typography
@@ -300,11 +311,11 @@
 @navbar-margin-bottom:       @line-height-computed;
 @navbar-border-radius:       @border-radius-large;
 
-@navbar-default-bg:          saturate(spin(tint(@brand-primary, 91%), -18), 2%);
+@navbar-default-bg:          white;
 
 // Navbar links
-@navbar-default-link-color:           @brand-primary;
-@navbar-default-link-hover-color:     @brand-secondary;
+@navbar-default-link-color:           @ll-orange;
+@navbar-default-link-hover-color:     @ll-green;
 @navbar-default-link-hover-bg:        transparent;
 @navbar-default-link-active-color:    @brand-secondary;
 @navbar-default-link-active-bg:       transparent;
@@ -337,12 +348,12 @@
 
 // Reset inverted navbar basics
 @navbar-inverse-color:                @inverse;
-@navbar-inverse-bg:                   @brand-primary;
+@navbar-inverse-bg:                   @ll-green;
 @navbar-inverse-border:               darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
 @navbar-inverse-link-color:           @inverse;
-@navbar-inverse-link-hover-color:     @brand-secondary;
+@navbar-inverse-link-hover-color:     @ll-orange;
 @navbar-inverse-link-hover-bg:        transparent;
 @navbar-inverse-link-active-color:    @navbar-inverse-link-color;
 @navbar-inverse-link-active-bg:       @brand-secondary;

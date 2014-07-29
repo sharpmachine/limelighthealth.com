@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 65.9 132.1" style="enable-background:new 0 0 65.9 132.1;" xml:space="preserve">
+<g>
+	<path style="fill:#FFFFFF;" d="M65.9,7.3V7.1c0-0.2,0-0.2,0-0.4V6.5c0-0.2,0-0.2,0-0.4V5.8c0-0.2,0-0.2-0.2-0.4
+		c0-0.2,0-0.2-0.2-0.2c0,0,0-0.2-0.2-0.2c0-0.2-0.2-0.2-0.2-0.4c0,0,0-0.2-0.2-0.2c0-0.2-0.2-0.2-0.2-0.4c0,0,0-0.2-0.2-0.2
+		c0-0.2-0.2-0.2-0.2-0.4c0,0,0,0-0.2-0.2c-0.2-0.2-0.2-0.2-0.4-0.4l0,0c-1-1-2.5-1.7-4-1.9l0,0c0-0.4-0.4-0.8-0.8-0.8h-7.3
+		c-0.4,0-0.8,0.4-0.8,0.8H8.3C4.4,0.8,1,4.2,1,8.1v7.5H0.6c-0.4,0-0.6,0.2-0.6,0.6v5.4c0,0.4,0.2,0.6,0.6,0.6H1v2.1H0.4
+		c-0.2,0-0.4,0.2-0.4,0.4v3.8C0,28.8,0.2,29,0.4,29H1v1.5H0.4c-0.2,0-0.4,0.2-0.4,0.4v3.5c0,0.2,0.2,0.4,0.4,0.4H1v62.6v27.3
+		c0,4,3.3,7.3,7.3,7.3h50.3c4,0,7.3-3.3,7.3-7.3V97.5V7.9C66.2,7.7,65.9,7.5,65.9,7.3z"/>
+	<circle style="fill:#4E4E4E;" cx="33.6" cy="6.1" r="1"/>
+	<circle style="fill:#8DD7F3;" cx="33.6" cy="6.1" r="0.2"/>
+	<path style="fill:#4E4E4E;" d="M39.6,9.6c0,0.4-0.4,0.8-0.8,0.8H28.6c-0.4,0-0.8-0.4-0.8-0.8l0,0c0-0.4,0.4-0.8,0.8-0.8h10.2
+		C39.2,8.8,39.6,9.2,39.6,9.6L39.6,9.6z"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-240.8295" y1="498.0599" x2="-212.3646" y2="498.0599" gradientTransform="matrix(2.0868 0 0 -2.0868 506.4541 1104.5697)">
+		<stop  offset="0" style="stop-color:#932A8E"/>
+		<stop  offset="1" style="stop-color:#2AAAE2"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_1_);" d="M62.4,15.4H4.8c-0.4,0-0.8,0.4-0.8,0.8v97.9c0,0.4,0.4,0.8,0.8,0.8h57.6
+		c0.4,0,0.8-0.4,0.8-0.8V16.5C63.2,15.9,62.8,15.4,62.4,15.4z"/>
+	<path style="opacity:0.2;fill:#FFFFFF;enable-background:new    ;" d="M62.4,15.4H4.8c-0.4,0-0.8,0.4-0.8,0.8L62.4,115
+		c0.4,0,0.8-0.4,0.8-0.8V16.5C63.2,15.9,62.8,15.4,62.4,15.4z"/>
+	<circle style="fill:#FFFFFF;" cx="33.6" cy="122.9" r="5.2"/>
+	<path style="fill:#E6E6E5;" d="M33.6,127.9c2.9,0,5.2-2.3,5.2-5.2H28.6C28.4,125.6,30.7,127.9,33.6,127.9z"/>
+	<path style="fill:none;stroke:#818181;stroke-width:0.5;stroke-miterlimit:10;" d="M35.7,124c0,0.4-0.4,0.8-0.8,0.8h-2.3
+		c-0.4,0-0.8-0.4-0.8-0.8v-2.3c0-0.4,0.4-0.8,0.8-0.8h2.3c0.4,0,0.8,0.4,0.8,0.8V124z"/>
+</g>
+</svg>

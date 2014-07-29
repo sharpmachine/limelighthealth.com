@@ -23,6 +23,10 @@ $(document).ready(function(){
 		$('#myModal iframe').vimeo("play");
 	});
 
+	$(".bio-link").click(function(){
+		$(this).parent().children("p.bio").slideToggle();
+	});
+
 });
 
 
