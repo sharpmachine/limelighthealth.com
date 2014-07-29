@@ -227,7 +227,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 				<div class="row brand-icons">
 					<div class="col-sm-2 frame">
 						<div class="brand-icon">
-							<img src="themes/flat-ui/images/Apple_Logo_Black.svg" class="img-responsive" alt="Apple Logo">
+							<img src="themes/flat-ui/images/Apple_logo_black.svg" class="img-responsive" alt="Apple Logo">
 						</div>
 					</div>
 					<div class="col-sm-2 frame">
