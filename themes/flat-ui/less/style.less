@@ -30,6 +30,16 @@ h1, h2, h3 {
 	margin-bottom: 30px;
 }
 
+@media (max-width: @screen-xs-max) {
+	h1 {
+		font-size: 50px;
+	}
+
+	h2 {
+		font-size: 40px;
+	}
+}
+
 .page {
 	margin-bottom: 30px;
 }
@@ -38,11 +48,29 @@ h1, h2, h3 {
 // Navbar
 
 .navbar {
-	min-height: 88px;
+	min-height: 70px;
+
+	@media (min-width: @screen-sm-min) {
+		min-height: 88px;
+	}
 }
 
 .navbar-nav {
 	margin-top: 20px;
+}
+
+.navbar-brand {
+	img {
+		width: 205px;
+
+		@media (min-width: @screen-sm-min) {
+			width: 250px;
+		}
+	}
+}
+
+.navbar-collapse {
+	border: 0;
 }
 
 
@@ -50,8 +78,29 @@ h1, h2, h3 {
 
 .jumbotron {
 	margin-bottom: 0;
-	padding: 150px 0;
 	background-color: #fff;
+
+	@media (max-width: @screen-xs-max) {
+		padding-left: 0;
+		padding-right: 0;
+		text-align: center;
+
+		h1 {
+			font-size: 48px;
+		}
+	}
+
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		h1 {
+			margin: 30px 0;
+			font-size: 56px;
+			text-align: center;
+		}
+	}
+
+	@media (min-width: @screen-md-min) {
+		padding: 150px 0;
+	}
 }
 
 h1,
@@ -61,7 +110,9 @@ h3 {
 }
 
 
-// Twitter Testimonials
+// Testimonials
+
+@quote-color: @ll-gray;
 
 .quote-triangle {
 	position: absolute;
@@ -71,12 +122,12 @@ h3 {
 	height: 0;
 	border-style: solid;
 	border-width: 7.5px 10px 7.5px 0;
-	border-color: transparent @clouds transparent transparent;
+	border-color: transparent @quote-color transparent transparent;
 }
 
-.twitter-quote {
+.quote-quote {
 	padding: 7.5px 15px;
-	background-color: @clouds;
+	background-color: @quote-color;
 	border-radius: 5px;
 
 	p {
@@ -86,7 +137,19 @@ h3 {
 
 .quote-headshot {
 	img {
+		margin-bottom: 7.5px;
 		border: 2px solid @ll-orange;
+	}
+}
+
+.quote-cite {
+
+	.name {
+		font-size: 14px;
+	}
+
+	.company {
+		font-size: 12px;
 	}
 }
 
@@ -95,61 +158,62 @@ h3 {
 
 .feature {
 	background-color: @ll-gray-light;
-}
 
-.ipad {
-	.va-parent {
-		height: 423px;
+	@media (max-width: @screen-xs-max) {
+		text-align: center;
 	}
 }
 
-.iphone {
-	.va-parent {
-		height: 331px;
+@media (min-width: @screen-md-min) {
+	.ipad {
+		.va-parent {
+			height: 423px;
+		}
 	}
-}
 
-.macbook {
-	.va-parent {
-		height: 319px;
+	.iphone {
+		.va-parent {
+			height: 331px;
+		}
+	}
+
+	.macbook {
+		.va-parent {
+			height: 319px;
+		}
 	}
 }
 
 
 // Brand Icons
 
-@brand-icon-height: 50px;
+@brand-icon-height: 30px;
 
 .frame {
 	height: @brand-icon-height;
 }
 
 .brand-icon {
-	display: inline-block;
 	height: 100%;
 	vertical-align: middle;
 
 	img {
 		vertical-align: middle;
 		max-height: @brand-icon-height;
-		// max-width: 160px;
 	}
 }
-
-// .brand-icon {
-// 	vertical-align: middle;
-// }
 
 
 // Footer
 
 #footer {
-	padding: 15px 0;
 	color: white;
 	background-color: @ll-steel;
 
 	p {
 		margin-bottom: 0;
+		color: lighten(@ll-orange, 10%);
+		font-size: 14px;
 	}
 
 	a {
@@ -160,10 +224,13 @@ h3 {
 	}
 }
 
-.social-media {
+.bottom-icons {
 	a {
 		font-size: 20px;
-		margin-left: 10px;
+	}
+
+	@media (max-width: @screen-xs-max) {
+		float: left !important;
 	}
 }
 
@@ -174,6 +241,12 @@ h3 {
 	.page-header {
 		margin-bottom: 0;
 		border-bottom: 0;
+	}
+}
+
+.team-member {
+	@media (max-width: @screen-xs-max) {
+		margin-bottom: 30px;
 	}
 }
 
@@ -309,6 +382,18 @@ hr.tilt {
 	}
 }
 
+
+// Center block
+
 .center-block {
 	float: none;
+}
+
+
+// Handheld device margin botton
+
+@media (min-width: 0) and (max-width: @screen-sm-max) {
+	.handheld-mb {
+		margin-bottom: 30px;
+	}
 }

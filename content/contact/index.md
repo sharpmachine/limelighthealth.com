@@ -9,11 +9,11 @@ Description: This description will go in the meta description tag
 
 		<div class="page-header">
 			<div class="row">
-				<div class="col-md-5 col-md-offset-1">
+				<div class="col-sm-6 col-md-5 col-md-offset-1">
 					<h1>Contact Us</h1>
 					<p class="lead">If you have any questions, <br>we would love to help</p>
 				</div>
-				<div class="col-md-5 col-md-offset-1">
+				<div class="col-sm-6 col-md-5 col-md-offset-1">
 					<p><span class="fui-chat"></span> <a href="tel:8778975005">877.897.5005</a></p>
 					<p><span class="fui-mail"></span> <a href="mailto:info@limelighthealth.com">info@limelighthealth.com</a></p>
 					<address>
@@ -25,7 +25,7 @@ Description: This description will go in the meta description tag
 		</div>
 
 		<div class="row">
-			<div class="col-sm-5 center-block">
+			<div class="col-sm-8 col-md-5 center-block">
 				<h2 class="text-center">Get In Touch</h2>
 				<form action="">
 					<div class="form-group">

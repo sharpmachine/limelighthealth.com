@@ -25,28 +25,28 @@ Description: This description will go in the meta description tag
 	<div class="container">
 		<div class="row text-center bios">
 			<h3>Your Team</h3>
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-3 team-member">
 				<img src="themes/flat-ui/images/jason.jpg" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Jason T. Andrew">
 				<h4>Jason T. Andrew</h4>
 				<strong>Chief Executive Officer</strong><br>
 				<button class="btn btn-link bio-link">Bio <span class="fui-triangle-down-small"></span></button>
 				<p class="bio">Jason spent 15 years as an agent in the Silicon Valley. Being so close to game-changing technology inspired him to do something big for the health insurance industry.</p>
 			</div>
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-3 team-member">
 				<img src="themes/flat-ui/images/michael.jpg" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Jason T. Andrew">
 				<h4>Michael Lujan</h4>
 				<strong>Chief Sales Officer</strong><br>
 				<button class="btn btn-link bio-link">Bio <span class="fui-triangle-down-small"></span></button>
 				<p class="bio">Michael is a passionate advocate for agents and former Director at Covered California. Also a former agent, carrier and GA, Michael knows health insurance and how to grow agency sales.</p>
 			</div>
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-3 team-member">
 				<img src="themes/flat-ui/images/garrett.jpg" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Jason T. Andrew">
 				<h4>Garrett Viggers</h4>
 				<strong>Chief Product Officer</strong><br>
 				<button class="btn btn-link bio-link">Bio <span class="fui-triangle-down-small"></span></button>
 				<p class="bio">Garrett couldn’t find the tools he needed to serve his clients so he created them. An innovator in agent mobile apps, he now leads our product and marketing team and pushes the bounds with new tools in a post-health reform world.</p>
 			</div>
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-3 team-member">
 				<img src="themes/flat-ui/images/jason.jpg" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Jason T. Andrew">
 				<h4>Alan Leard</h4>
 				<strong>Chief Technology Officer</strong><br>

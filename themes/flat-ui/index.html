@@ -7,7 +7,7 @@
   <meta name="description" content="We offer powerful technology, qualified sales leads and expert compliance solutions to help grow your agency.">
   <meta name="author" content="Sharp Machine Media">
   <meta property="og:image" content=""/>
-  <link rel="shortcut icon" href="{{ theme_url }}/img/ico/favicon.ico">
+  <link rel="shortcut icon" href="{{ theme_url }}/images/favicon.ico">
 
   <title>{% if meta.title %}{{ meta.title }} | {% endif %}{{ site_title }}</title>
 
@@ -38,7 +38,7 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ base_url }}"><img src="themes/flat-ui/images/logo-white.svg" alt="logo" width="250px"></a>
+                <a class="navbar-brand" href="{{ base_url }}"><img src="themes/flat-ui/images/logo.svg" class="img-responsive" alt="logo" width="200px"></a>
               </div>
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -59,17 +59,26 @@
 
       <!-- START: Footer -->
      
-      <footer id="footer">
+      <footer id="footer" class="bottom-menu">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-4 col-md-3">
               <p>&copy;2014 Limelight Health, Inc.</p>
             </div>
-            <div class="col-sm-6 text-right social-media">
-              <a href="https://twitter.com/LimelightHealth"><span class="fui-twitter"></span></a>
-              <a href="https://twitter.com/LimelightHealth"><span class="fui-linkedin"></span></a>
-              <a href="https://twitter.com/LimelightHealth"><span class="fui-googleplus"></span></a>
-              <a href="https://twitter.com/LimelightHealth"><span class="fui-vimeo"></span></a>
+            <div class="col-sm-5 col-md-6">
+              <ul class="bottom-links">
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="about">About</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-3">
+              <ul class="bottom-icons pull-right">
+                <li><a href="https://twitter.com/LimelightHealth"><span class="fui-twitter"></span></a></li>
+                <li><a href="https://twitter.com/LimelightHealth"><span class="fui-linkedin"></span></a></li>
+                <li><a href="https://twitter.com/LimelightHealth"><span class="fui-googleplus"></span></a></li>
+                <li><a href="https://twitter.com/LimelightHealth"><span class="fui-vimeo"></span></a></li>
+              </ul>
             </div>
           </div>
         </div>

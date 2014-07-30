@@ -3,132 +3,63 @@ Title: Health. Insurance. Simplified
 Description: We offer powerful technology, qualified sales leads and expert compliance solutions to help grow your agency.
 */
 
-<div class="jumbotron">
+<!-- START: Jumbotron -->
+<div class="jumbotron bg-ll-gray-light">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-5">
+			<div class="col-sm-12 col-md-6 col-lg-5">
 				<h1>Change is now in your hands</h1>
+				<div class="row visible-xs visible-sm handheld-mb">
+					<div class="col-xs-12">
+						<img src="themes/flat-ui/images/ifamily.png" class="img-responsive center-block" alt="iPad">
+					</div>
+				</div>
 				<p class="lead">Introducing <strong>QuotePad &trade;</strong>  <br>The first <em>live</em>, all-in-one quote engine for health insurance agents.</p>
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-sm-6 handheld-mb">
 						<a href="#" class="btn btn-hg btn-success btn-embossed btn-block" data-toggle="modal" data-target="#myModal">Watch Video <span class="fui-triangle-right-large"></span></a>
 					</div>
 					<div class="col-sm-6">
 						<a href="#signup" class="btn btn-hg btn-warning btn-embossed btn-block">Get Invite <span class="fui-triangle-down"></span></a>
 					</div>
-					<div class="col-xs-12">
+					<div class="col-xs-12 hidden-md">
 						<br><small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-7">
+			<div class="col-md-6 col-lg-7 hidden-xs hidden-sm">
 				<img src="themes/flat-ui/images/ifamily.png" class="img-responsive center-block" alt="iPad">
+				<div class="row visible-md">
+					<div class="col-xs-12 text-right">
+						<br><small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
 
-<section id="devices" class="text-center hidden">
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-12">
-				<h3>Available on all your devices</h3>
-				<br>
-				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive center-block" alt="iPad">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="pain-points" class="text-center hidden">
-	<div class="container">
-		<div class="row text-center">
-			<h2>Agents.  Do you know the answers to these complex client questions?</h2>
-			<div class="col-sm-3">
-				<p class="lead">"What plan is right for me?"</p>
-			</div>
-			<div class="col-sm-3">
-				<p class="lead">"Am I eligible for a tax credit?"</p>
-			</div>
-			<div class="col-sm-3">
-				<p class="lead">"Can I keep my doctor?"</p>
-			</div>
-			<div class="col-sm-3">
-				<p class="lead">"Group vs. Individual?"</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="benefits" class="text-center bg-ll-gray-light">
+<!-- START: Benefits -->
+<section id="benefits" class="text-center">
 	<div class="container">
 		<div class="row">
 			<h2>Become the agent of tomorrow, today.</h2>
 			<br>
-			<!-- <h3><strong>QuotePad</strong> will make your life easy</h3> -->
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-6 col-md-3">
 				<img src="themes/flat-ui/images/icons/medal.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Use one system for all health insurance options</p>
 			</div>
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-6 col-md-3">
 				<img src="themes/flat-ui/images/icons/clocks.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Save hours of time by ditching those spreadsheets</p>
 			</div>
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-6 col-md-3">
 				<img src="themes/flat-ui/images/icons/goal.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Simplify the decision process for your clients</p>
 			</div>
-			<div class="col-sm-2 col-md-3">
+			<div class="col-sm-6 col-md-3">
 				<img src="themes/flat-ui/images/icons/bulb.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Answers for your clients are at your finger tips</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section id="testimonials">
-	<div class="container">
-		<h2 class="text-center">What agents using QuotePad are saying</h2>
-		<br>
-		<div class="row">
-			<div class="col-sm-2 col-md-4">
-				<div class="row">
-					<div class="col-xs-4 quote-headshot">
-						<img src="themes/flat-ui/images/icons/dude.svg" class="img-responsive img-circle" alt="testimonials">
-					</div>
-					<div class="col-xs-8">
-						<div class="quote-triangle"></div>
-						<div class="twitter-quote">
-							<p><small>I am very excited about the functionality of this product. To best serve our clients we need to provide thorough analysis and demonstrate creativity with prospective clients.</small></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-4">
-				<div class="row">
-					<div class="col-xs-4 quote-headshot">
-						<img src="themes/flat-ui/images/icons/girl.svg" class="img-responsive img-circle" alt="testimonials">
-					</div>
-					<div class="col-xs-8">
-						<div class="quote-triangle"></div>
-						<div class="twitter-quote">
-							<p><small>Limelight just changed the game. My agency demands cutting-edge tools and this technology is exactly what we needed! We will love being in the Limelight with our clients.</small></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-2 col-md-4">
-				<div class="row">
-					<div class="col-xs-4 quote-headshot">
-						<img src="themes/flat-ui/images/icons/dude.svg" class="img-responsive img-circle" alt="testimonials">
-					</div>
-					<div class="col-xs-8">
-						<div class="quote-triangle"></div>
-						<div class="twitter-quote">
-							<p><small>It's about time! I've been waiting for a quote engine that is powerful, flexible and works in my office as well as on my mobile devices when I'm meeting with clients.</small></p>
-						</div>
-					</div>
-				</div>
 			</div>
 		</div>
 	</div>
@@ -160,7 +91,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="group-tools" class="feature macbook">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-push-6 va-parent">
+			<div class="col-sm-6 col-sm-push-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">Small Group Tools</h3>
@@ -168,7 +99,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-pull-6">
+			<div class="col-sm-6 col-sm-pull-6">
 				<img src="themes/flat-ui/images/macbook.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
@@ -180,7 +111,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="calculators" class="feature iphone">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-sm-offset-2 va-parent">
+			<div class="col-sm-6 col-md-offset-2 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">Calculators</h3>
@@ -188,7 +119,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-2">
+			<div class="col-sm-4 col-sm-offset-1 col-md-2">
 				<img src="themes/flat-ui/images/iphone.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
@@ -200,7 +131,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="white-label" class="feature ipad">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-push-6 va-parent">
+			<div class="col-sm-6 col-sm-push-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">White Label</h3>
@@ -208,58 +139,137 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-pull-6">
+			<div class="col-sm-6 col-sm-pull-6">
 				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
 	</div>
 </section>
 
+<!-- START: Testimonies -->
+<section id="testimonials">
+	<div class="container">
+		<h2 class="text-center">What agents using QuotePad are saying:</h2>
+		<br>
+		<div class="row">
+			<div class="col-sm-12 col-md-4 quote handheld-mb">
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-md-4">
+						<div class="quote-headshot">
+							<img src="themes/flat-ui/images/jason.jpg" class="img-responsive img-circle" alt="testimonials">	
+						</div>
+						<div class="quote-cite text-center hidden-sm">
+							<div class="name"><strong>Marge Beck</strong></div>
+							<div class="company">Affiliated Benefit Services</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-sm-10 col-md-8">
+						<div class="quote-triangle"></div>
+						<div class="quote-quote">
+							<p><small>I am very excited about the functionality of QuotePad. To best serve our clients we need to provide thorough analysis and demonstrate creativity with prospective clients.</small></p>
+						</div>
+						<div class="quote-cite text-right visible-sm">
+							<span class="name"><strong>Marge Beck</strong></span>
+							<span class="company">Affiliated Benefit Services</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 quote handheld-mb">
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-md-4">
+						<div class="quote-headshot">
+							<img src="themes/flat-ui/images/garrett.jpg" class="img-responsive img-circle" alt="testimonials">	
+						</div>
+						<div class="quote-cite text-center hidden-sm">
+							<div class="name"><strong>Steve Cosley</strong></div>
+							<div class="company">SCI & Associates Insurance Services</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-sm-10 col-md-8">
+						<div class="quote-triangle"></div>
+						<div class="quote-quote">
+							<p><small>Limelight just changed the game. My agency demands cutting-edge tools and this technology is exactly what we needed! We will love being in the Limelight with our clients.</small></p>
+						</div>
+						<div class="quote-cite text-right visible-sm">
+							<span class="name"><strong>Steve Cosley</strong></span>
+							<span class="company">SCI & Associates Insurance Services</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-12 col-md-4 quote handheld-mb">
+				<div class="row">
+					<div class="col-xs-4 col-sm-2 col-md-4">
+						<div class="quote-headshot">
+							<img src="themes/flat-ui/images/michael.jpg" class="img-responsive img-circle" alt="testimonials">	
+						</div>
+						<div class="quote-cite text-center hidden-sm">
+							<div class="name"><strong>Ross Rogers</strong></div>
+							<div class="company">Ross Rogers Insurance Services</div>
+						</div>
+					</div>
+					<div class="col-xs-8 col-sm-10 col-md-8">
+						<div class="quote-triangle"></div>
+						<div class="quote-quote">
+							<p><small>It's about time! I've been waiting for a quote engine that is powerful, flexible and works in my office as well as on my mobile devices when I'm meeting with clients.</small></p>
+						</div>
+						<div class="quote-cite text-right visible-sm">
+							<span class="name"><strong>Ross Rogers</strong></span>
+							<span class="company">Ross Rogers Insurance Services</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- START: Call to action -->
 <div id="signup" class="anchor"></div>
 <section id="sign-up" class="text-center bg-ll-blue-steel">
 	<div class="container">
 		<h3>Don't wait.  Innovate.</h3>
 		<div class="row">
-			<div class="col-sm-6">
+			<div class="col-sm-12 col-md-6 handheld-mb">
 				<p class="lead">Available on all your devices. <br>
 					<small>Public availability starts Fall of 2014.</small></p>
 				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive" alt="iFamily"> <br>
 				<div class="row brand-icons">
-					<div class="col-sm-2 frame">
+					<div class="col-xs-2 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Apple_logo_black.svg" class="img-responsive" alt="Apple Logo">
 						</div>
 					</div>
-					<div class="col-sm-2 frame">
+					<div class="col-xs-2 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Android_Robot.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-sm-2 frame">
+					<div class="col-xs-2 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Chrome.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-sm-2 frame">
+					<div class="col-xs-2 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Safari.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-sm-2 frame">
+					<div class="col-xs-2 frame">
 						<div class="brand-icon">
-							<img src="themes/flat-ui/images/Opera.svg" class="img-responsive" alt="Android Logo">
+							<img src="themes/flat-ui/images/ie.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-sm-2 frame">
+					<div class="col-xs-2 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Firefox.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 col-md-offset-1">
-				<p class="lead">Get invited to the pre-sale. <br>
-					<small>Be one of the first.</small></p>
+			<div class="col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-1">
+				<p class="lead">Get invited to the <br> limited pre-release.</p>
 				<form action="" class="sign-up">
 					<div class="form-group">
 						<label for="Name" class="sr-only">Name</label>
