@@ -45,19 +45,19 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 		<div class="row">
 			<h2>Become the agent of tomorrow, today.</h2>
 			<br>
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(150%);opacity:0" data-300="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/icons/medal.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Use one system for all health insurance options</p>
 			</div>
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(200%);opacity:0" data-330="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/icons/clocks.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Save hours of time by ditching those spreadsheets</p>
 			</div>
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(250%);opacity:0" data-360="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/icons/goal.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Simplify the decision process for your clients</p>
 			</div>
-			<div class="col-sm-6 col-md-3">
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(300%);opacity:0" data-390="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/icons/bulb.svg" class="img-responsive center-block" alt=""><br>
 				<p class="lead">Answers for your clients are at your finger tips</p>
 			</div>
@@ -68,10 +68,10 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <!-- START: features -->
 <section id="simple-quote" class="feature ipad">
 	<div class="container">
-		<h1 class="text-center">QuotePad Features Include:</h1>
+		<h1 class="text-center" data-0="opacity:0" data-800="opacity:1;">QuotePad Features Include:</h1>
 		<br>
 		<div class="row">
-			<div class="col-sm-6 va-parent">
+			<div class="col-sm-6 va-parent" data-0="transform: translateX(-150%);opacity: 0.0" data-900="transform: translateX(0%);opacity: 1">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">Brilliant Quoting</h3>
@@ -79,7 +79,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6">
+			<div class="col-sm-6" data-0="transform: translateX(150%);opacity: 0.0" data-900="transform: translateX(0%);opacity: 1">
 				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
@@ -91,7 +91,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="group-tools" class="feature macbook">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-sm-push-6 va-parent">
+			<div class="col-sm-6 col-sm-push-6 va-parent" data-0="transform: translateX(150%);" data-1400="transform: translateX(0%);">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">Small Group Tools</h3>
@@ -99,7 +99,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-sm-pull-6">
+			<div class="col-sm-6 col-sm-pull-6" data-0="transform: translateX(-150%);" data-1400="transform: translateX(0%);">
 				<img src="themes/flat-ui/images/macbook.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
@@ -111,7 +111,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="calculators" class="feature iphone">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-offset-2 va-parent">
+			<div class="col-sm-6 col-md-offset-2 va-parent" data-0="transform: translateX(-150%);opacity:0;" data-1900="transform: translateX(0%);opacity:1;">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">Calculators</h3>
@@ -119,7 +119,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 col-sm-offset-1 col-md-2">
+			<div class="col-sm-4 col-sm-offset-1 col-md-2" data-0="transform: translateX(150%);opacity:0;" data-1900="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/iphone.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
@@ -131,7 +131,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="white-label" class="feature ipad">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-sm-push-6 va-parent">
+			<div class="col-sm-6 col-sm-push-6 va-parent" data-0="transform: translateX(150%);opacity:0;" data-2400="transform: translateX(0%);opacity:1;">
 				<div class="va-wrapper">
 					<div class="va-inner">
 						<h3 class="text-success">White Label</h3>
@@ -139,7 +139,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-sm-pull-6">
+			<div class="col-sm-6 col-sm-pull-6" data-0="transform: translateX(-150%);opacity:0;" data-2400="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
@@ -149,10 +149,10 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <!-- START: Testimonies -->
 <section id="testimonials">
 	<div class="container">
-		<h2 class="text-center">What agents using QuotePad are saying:</h2>
+		<h2 class="text-center" data-0="opacity:0" data-3100="opacity:1;">What agents using QuotePad are saying:</h2>
 		<br>
 		<div class="row">
-			<div class="col-sm-12 col-md-4 quote handheld-mb">
+			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-350%);opacity:0" data-3060="transform: translateX(0%);opacity:1;">
 				<div class="row">
 					<div class="col-xs-4 col-sm-2 col-md-4">
 						<div class="quote-headshot">
@@ -175,7 +175,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 quote handheld-mb">
+			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-250%);opacity:0" data-3030="transform: translateX(0%);opacity:1;">
 				<div class="row">
 					<div class="col-xs-4 col-sm-2 col-md-4">
 						<div class="quote-headshot">
@@ -198,7 +198,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 quote handheld-mb">
+			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-150%);opacity:0" data-3000="transform: translateX(0%);opacity:1;">
 				<div class="row">
 					<div class="col-xs-4 col-sm-2 col-md-4">
 						<div class="quote-headshot">
@@ -228,7 +228,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <!-- START: Call to action -->
 <div id="signup" class="anchor"></div>
 <section id="sign-up" class="text-center bg-ll-blue-steel">
-	<div class="container">
+	<div class="container" data-0="transform: translateY(-250%);opacity:0" data-3500="transform: translateY(0%);opacity:1;">
 		<h3>Don't wait.  Innovate.</h3>
 		<div class="row">
 			<div class="col-sm-12 col-md-6 handheld-mb">

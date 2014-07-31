@@ -53,7 +53,8 @@ module.exports = function(grunt) {
               // 'themes/flat-ui/bootstrap/js/scrollspy.js',
               // 'themes/flat-ui/bootstrap/js/tab.js',
               // 'themes/flat-ui/bootstrap/js/affix.js',
-              'themes/flat-ui/js/vimeo.js'
+              'themes/flat-ui/js/vimeo.js',
+              'bower_components/skrollr/dist/skrollr.min.js'
               ],
               'themes/flat-ui/js/scripts.min.js': [
               'themes/flat-ui/js/scripts.js'

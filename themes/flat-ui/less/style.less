@@ -3,6 +3,10 @@ body {
 	height: 100%;
 }
 
+.skrollr-desktop body {
+	height:100% !important;
+}
+
 body {
 	padding-top: 53px;
 }
@@ -11,6 +15,15 @@ section {
 	padding: 60px 0;
 }
 
+#signup {
+	position: relative;
+	z-index: 1;
+}
+
+#testimonials {
+	position: relative;
+	z-index: 2;
+}
 
 // Typography
 
@@ -99,7 +112,7 @@ h1, h2, h3 {
 	}
 
 	@media (min-width: @screen-md-min) {
-		padding: 150px 0;
+		padding: 90px 0;
 	}
 }
 

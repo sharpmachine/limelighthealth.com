@@ -27,6 +27,8 @@ $(document).ready(function(){
 		$(this).parent().children("p.bio").slideToggle();
 	});
 
+	var s = skrollr.init();
+
 });
 
 
