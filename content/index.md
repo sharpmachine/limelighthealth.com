@@ -74,8 +74,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			<div class="col-sm-6 va-parent">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-success">Brillant Quoting</h3>
-						<p class="lead">Smart quote engine creates proposal PDFs with a live quoting interface.</p>
+						<h3 class="text-success">Brilliant Quoting</h3>
+						<p class="lead">Smart quote engine creates proposal PDFs with a <strong><em>live</em></strong> quoting interface.</p>
 					</div>
 				</div>
 			</div>
