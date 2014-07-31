@@ -3,27 +3,30 @@ Title: Contact
 Description: This description will go in the meta description tag
 */
 
-<div class="container">
+<div id="contact-page" class="container">
 
-	<section class="page">
-
-		<div class="page-header">
-			<div class="row">
-				<div class="col-sm-6 col-md-5 col-md-offset-1">
-					<h1>Contact Us</h1>
-					<p class="lead">If you have any questions, <br>we would love to help</p>
-				</div>
-				<div class="col-sm-6 col-md-5 col-md-offset-1">
-					<p><span class="fui-chat"></span> <a href="tel:8778975005">877.897.5005</a></p>
-					<p><span class="fui-mail"></span> <a href="mailto:info@limelighthealth.com">info@limelighthealth.com</a></p>
-					<address>
-						<span class="fui-location"></span> 2000 Broadway St., Suite 233 <br>
-						Redwood City, CA 94063
-					</address>
-				</div>
+	<div class="page-header">
+		<div class="row">
+			<div class="col-sm-6 col-md-5 col-md-offset-1">
+				<h1>Contact Us</h1>
+				<p class="lead">If you have any questions, <br>we would love to help</p>
+			</div>
+			<div class="col-sm-6 col-md-5 col-md-offset-1">
+				<p><span class="fui-chat"></span> <a href="tel:8778975005">877.897.5005</a></p>
+				<p><span class="fui-mail"></span> <a href="mailto:info@limelighthealth.com">info@limelighthealth.com</a></p>
+				<address>
+					<span class="fui-location"></span> 2000 Broadway St., Suite 233 <br>
+					Redwood City, CA 94063
+				</address>
+				<address>
+					<span class="fui-location"></span> 1445 Victor Ave. Suite C <br>
+					Redwood City, CA 96003
+				</address>
 			</div>
 		</div>
+	</div>
 
+	<section>
 		<div class="row">
 			<div class="col-sm-8 col-md-5 center-block">
 				<h2 class="text-center">Get In Touch</h2>
@@ -40,7 +43,6 @@ Description: This description will go in the meta description tag
 				</form>
 			</div>
 		</div>
-
 	</section>
 
 </div><!-- END: .container -->

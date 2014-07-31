@@ -4,13 +4,13 @@ Description: This description will go in the meta description tag
 */
 
 
-<div class="container about-page-header">
+<div class="container">
 	<div class="page-header text-center">
 		<h1>About Limelight Health</h1>
 	</div>
 </div>
 
-<section class="bg-ll-gray-light">
+<section>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 center-block text-center">
@@ -47,7 +47,7 @@ Description: This description will go in the meta description tag
 				<p class="bio">Garrett couldn’t find the tools he needed to serve his clients so he created them. An innovator in agent mobile apps, he now leads our product and marketing team and pushes the bounds with new tools in a post-health reform world.</p>
 			</div>
 			<div class="col-sm-3 team-member">
-				<img src="themes/flat-ui/images/jason.jpg" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Jason T. Andrew">
+				<img src="themes/flat-ui/images/alan.png" width="200px" height="200px" class="img-responsive img-circle center-block" alt="Jason T. Andrew">
 				<h4>Alan Leard</h4>
 				<strong>Chief Technology Officer</strong><br>
 				<button class="btn btn-link bio-link">Bio <span class="fui-triangle-down-small"></span></button>

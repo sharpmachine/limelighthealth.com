@@ -15,15 +15,6 @@ section {
 	padding: 60px 0;
 }
 
-#signup {
-	position: relative;
-	z-index: 1;
-}
-
-#testimonials {
-	position: relative;
-	z-index: 2;
-}
 
 // Typography
 
@@ -53,8 +44,8 @@ h1, h2, h3 {
 	}
 }
 
-.page {
-	margin-bottom: 30px;
+address {
+	margin-bottom: 15px;
 }
 
 
@@ -197,10 +188,29 @@ h3 {
 	}
 }
 
+@media (max-width: @screen-xs-max) {
+	.iphone {
+		.iphone-img {
+			margin: 0 auto;
+			float: none;
+		}
+	}
+}
+
+#signup {
+	position: relative;
+	z-index: 1;
+}
+
+#testimonials {
+	position: relative;
+	z-index: 2;
+}
+
 
 // Brand Icons
 
-@brand-icon-height: 30px;
+@brand-icon-height: 21px;
 
 .frame {
 	height: @brand-icon-height;
@@ -220,6 +230,11 @@ h3 {
 // Footer
 
 #footer {
+
+	@media (max-width: @screen-xs-max) {
+		text-align: center;	
+	}
+
 	color: white;
 	background-color: @ll-steel;
 
@@ -243,19 +258,14 @@ h3 {
 	}
 
 	@media (max-width: @screen-xs-max) {
-		float: left !important;
+		float: none !important;
+		width: 152px;
+		margin: 0 auto
 	}
 }
 
 
 // ABOUT PAGE
-
-.about-page-header {
-	.page-header {
-		margin-bottom: 0;
-		border-bottom: 0;
-	}
-}
 
 .team-member {
 	@media (max-width: @screen-xs-max) {
@@ -272,6 +282,15 @@ h3 {
 	&:focus {
 		outline: none;
 		text-decoration: none;
+	}
+}
+
+
+// Contact page
+
+#contact-page {
+	@media (max-width: @screen-xs-max) {
+		text-align: center;
 	}
 }
 

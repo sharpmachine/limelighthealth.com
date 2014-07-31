@@ -119,8 +119,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-4 col-sm-offset-1 col-md-2" data-0="transform: translateX(150%);opacity:0;" data-1900="transform: translateX(0%);opacity:1;">
-				<img src="themes/flat-ui/images/iphone.svg" class="img-responsive" alt="iPad">
+			<div class="col-xs-8 col-sm-4 col-sm-offset-1 col-md-2 iphone-img" data-0="transform: translateX(150%);opacity:0;" data-1900="transform: translateX(0%);opacity:1;">
+				<img src="themes/flat-ui/images/iphone.svg" class="img-responsive" alt="iPhone">
 			</div>
 		</div>
 	</div>
@@ -233,35 +233,36 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 		<div class="row">
 			<div class="col-sm-12 col-md-6 handheld-mb">
 				<p class="lead">Available on all your devices. <br>
-					<small>Public availability starts Fall of 2014.</small></p>
+					<small>Public availability starts Fall of 2014.</small>
+				</p>
 				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive" alt="iFamily"> <br>
 				<div class="row brand-icons">
-					<div class="col-xs-2 frame">
+					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Apple_logo_black.svg" class="img-responsive" alt="Apple Logo">
 						</div>
 					</div>
-					<div class="col-xs-2 frame">
+					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Android_Robot.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-xs-2 frame">
+					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Chrome.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-xs-2 frame">
+					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Safari.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-xs-2 frame">
+					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/ie.svg" class="img-responsive" alt="Android Logo">
 						</div>
 					</div>
-					<div class="col-xs-2 frame">
+					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Firefox.svg" class="img-responsive" alt="Android Logo">
 						</div>
