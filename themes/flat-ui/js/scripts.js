@@ -27,7 +27,9 @@ $(document).ready(function(){
 		$(this).parent().children("p.bio").slideToggle();
 	});
 
-	var s = skrollr.init();
+	if(!(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera)){
+		var s = skrollr.init();
+	}
 
 });
 

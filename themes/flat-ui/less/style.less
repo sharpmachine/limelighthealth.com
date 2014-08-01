@@ -3,18 +3,19 @@ body {
 	height: 100%;
 }
 
-.skrollr-desktop body {
-	// @media (min-width: @screen-md-min) {
-		height:100% !important;
-	// }
-}
-
 body {
 	padding-top: 53px;
 }
 
 section {
 	padding: 60px 0;
+}
+
+#skrollr-body {
+	@media (min-width: @screen-md-min) {
+		height: 100%;
+		overflow-x :hidden; 
+	}
 }
 
 
@@ -55,21 +56,16 @@ address {
 
 .navbar {
 	min-height: 70px;
-
-	@media (min-width: @screen-sm-min) {
-		min-height: 88px;
-	}
 }
 
 .navbar-nav {
-	margin-top: 20px;
+	margin-top: 12px;
 }
 
 .navbar-brand {
-	img {
-		width: 205px;
-		height: 42px;
+	height: 79px;
 
+	img {
 		@media (min-width: @screen-sm-min) {
 			width: 250px;
 		}
@@ -93,6 +89,7 @@ address {
 		text-align: center;
 
 		h1 {
+			margin-top: 30px;
 			font-size: 48px;
 		}
 	}
@@ -133,7 +130,7 @@ h3 {
 
 	@media (max-width: @screen-xs-max) {
 		top: 0px;
-		left: 50%;
+		left: calc(~'50% - 10px');
 		border-width: 0 7.5px 10px 7.5px;
 		border-color: transparent transparent @quote-color transparent;
 	}
@@ -254,7 +251,6 @@ h3 {
 
 	@media (max-width: @screen-xs-max) {
 		text-align: center;
-		padding-bottom: 89px;
 	}
 
 	color: white;
@@ -290,13 +286,14 @@ h3 {
 // ABOUT PAGE
 
 .team-member {
-	@media (max-width: @screen-xs-max) {
+	// @media (max-width: @screen-xs-max) {
 		margin-bottom: 30px;
-	}
+	// }
 }
 
 .bio {
 	display: none;
+	text-align: justify;
 }
 
 .bio-link {
@@ -380,22 +377,27 @@ textarea.no-top-radius {
 
 // Funky tilts
 
-hr.tilt {
-	margin-top: 0;
-	margin-bottom: -2px;
-	border: 0;
-	border-top: 2px dotted @ll-orange;
+hr {
 
-	@tilt: 3deg;
+	&.tilt {
+		margin-top: 0;
+		margin-bottom: -2px;
+		border: 0;
+		border-top: 2px dotted @ll-orange;
 
-	&.tilt-down {
-		.rotate(@tilt);
-	}
+		@tilt: 3deg;
 
-	&.tilt-up {
-		.rotate(-@tilt);
+		&.tilt-down {
+			.rotate(@tilt);
+		}
+
+		&.tilt-up {
+			.rotate(-@tilt);
+		}
 	}
 }
+
+
 
 
 // Vertical Align

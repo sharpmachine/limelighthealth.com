@@ -11,7 +11,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 				<h1>Change is now in your hands</h1>
 				<div class="row visible-xs visible-sm handheld-mb">
 					<div class="col-xs-12">
-						<img src="themes/flat-ui/images/ifamily.png" class="img-responsive center-block" alt="iPad">
+						<img src="themes/flat-ui/images/ifamily.png" class="img-responsive center-block" alt="iFamily">
 					</div>
 				</div>
 				<p class="lead">Introducing <strong>QuotePad &trade;</strong>  <br>The first <em>live</em>, all-in-one quote engine for health insurance agents.</p>
@@ -23,20 +23,24 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 						<a href="#signup" class="btn btn-hg btn-warning btn-embossed btn-block">Get Invited <span class="fui-triangle-down"></span></a>
 					</div>
 					<div class="col-xs-12 hidden-md">
-						<br><small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
+						<small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-7 hidden-xs hidden-sm">
-				<img src="themes/flat-ui/images/ifamily.png" class="img-responsive center-block" alt="iPad">
+				<img src="themes/flat-ui/images/ifamily.png" class="img-responsive center-block" alt="iFamily">
 				<div class="row visible-md">
 					<div class="col-xs-12 text-right">
-						<br><small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
+						<small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="container">
+	<hr>
 </div>
 
 <!-- START: Benefits -->
@@ -45,20 +49,20 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 		<div class="row">
 			<h2>Become the agent of tomorrow, today.</h2>
 			<br>
-			<div class="col-sm-6 col-md-3" data-0="transform: translateX(150%);opacity:0" data-300="transform: translateX(0%);opacity:1;">
-				<img src="themes/flat-ui/images/icons/medal.svg" class="img-responsive center-block" alt=""><br>
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(150%);opacity:0;overflow:hidden;" data-300="transform: translateX(0%);opacity:1;">
+				<img src="themes/flat-ui/images/icons/medal.svg" class="img-responsive center-block" alt="Use one system for all health insurance options"><br>
 				<p class="lead">Use one system for all health insurance options</p>
 			</div>
-			<div class="col-sm-6 col-md-3" data-0="transform: translateX(200%);opacity:0" data-330="transform: translateX(0%);opacity:1;">
-				<img src="themes/flat-ui/images/icons/clocks.svg" class="img-responsive center-block" alt=""><br>
-				<p class="lead">Save hours of time by ditching those spreadsheets</p>
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(200%);opacity:0;overflow:hidden;" data-330="transform: translateX(0%);opacity:1;">
+				<img src="themes/flat-ui/images/icons/clocks.svg" class="img-responsive center-block" alt="Save hours of time, and say goodbye to spreadsheets"><br>
+				<p class="lead">Save hours of time, and say goodbye to spreadsheets</p>
 			</div>
-			<div class="col-sm-6 col-md-3" data-0="transform: translateX(250%);opacity:0" data-360="transform: translateX(0%);opacity:1;">
-				<img src="themes/flat-ui/images/icons/goal.svg" class="img-responsive center-block" alt=""><br>
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(250%);opacity:0;overflow:hidden;" data-360="transform: translateX(0%);opacity:1;">
+				<img src="themes/flat-ui/images/icons/goal.svg" class="img-responsive center-block" alt="Simplify the decision process for your clients"><br>
 				<p class="lead">Simplify the decision process for your clients</p>
 			</div>
-			<div class="col-sm-6 col-md-3" data-0="transform: translateX(300%);opacity:0" data-390="transform: translateX(0%);opacity:1;">
-				<img src="themes/flat-ui/images/icons/bulb.svg" class="img-responsive center-block" alt=""><br>
+			<div class="col-sm-6 col-md-3" data-0="transform: translateX(300%);opacity:0;overflow:hidden;" data-390="transform: translateX(0%);opacity:1;">
+				<img src="themes/flat-ui/images/icons/bulb.svg" class="img-responsive center-block" alt="Answers for your clients are at your finger tips"><br>
 				<p class="lead">Answers for your clients are at your finger tips</p>
 			</div>
 		</div>
@@ -68,7 +72,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <!-- START: features -->
 <section id="simple-quote" class="feature ipad">
 	<div class="container">
-		<h1 class="text-center" data-0="opacity:0" data-800="opacity:1;">QuotePad Features Include:</h1>
+		<h1 class="text-center" data-0="opacity:0;overflow:hidden;" data-800="opacity:1;">QuotePad Features Include:</h1>
 		<br>
 		<div class="row">
 			<div class="col-sm-6 va-parent" data-0="transform: translateX(-150%);opacity: 0.0" data-900="transform: translateX(0%);opacity: 1">
@@ -94,13 +98,13 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			<div class="col-sm-6 col-sm-push-6 va-parent" data-0="transform: translateX(150%);" data-1400="transform: translateX(0%);">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-success">Small Group Tools</h3>
-						<p class="lead">Quick and easy tools to compare all options (PPOs, HMOs, HSAs, HRAs & Group vs. Individual On & Off Exchange).</p>
+						<h3 class="text-success">All Options, One Place</h3>
+						<p class="lead">Quick and easy tools to compare; Full time or part time, group, individual, HSA, HRA, on or off exchange.</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-sm-6 col-sm-pull-6" data-0="transform: translateX(-150%);" data-1400="transform: translateX(0%);">
-				<img src="themes/flat-ui/images/macbook.svg" class="img-responsive" alt="iPad">
+				<img src="themes/flat-ui/images/macbook.svg" class="img-responsive" alt="macbook">
 			</div>
 		</div>
 	</div>
@@ -111,15 +115,15 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="calculators" class="feature iphone">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-md-offset-2 va-parent" data-0="transform: translateX(-150%);opacity:0;" data-1900="transform: translateX(0%);opacity:1;">
+			<div class="col-sm-6 col-md-offset-2 va-parent" data-0="transform: translateX(-150%);opacity:0;overflow:hidden;;" data-1900="transform: translateX(0%);opacity:1;">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-success">Calculators</h3>
-						<p class="lead">Simple and intuitive tools to calculate subsidy eligibility for employees and individuals, as well as Medi-Cal, and tax penalities.</p>
+						<h3 class="text-success">Seamless API integration</h3>
+						<p class="lead">No more porting data back and forth between systems. We play nice with CRM, payroll, agency management, HR and others.</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-8 col-sm-4 col-sm-offset-1 col-md-2 iphone-img" data-0="transform: translateX(150%);opacity:0;" data-1900="transform: translateX(0%);opacity:1;">
+			<div class="col-xs-8 col-sm-4 col-sm-offset-1 col-md-2 iphone-img" data-0="transform: translateX(150%);opacity:0;overflow:hidden;;" data-1900="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/iphone.svg" class="img-responsive" alt="iPhone">
 			</div>
 		</div>
@@ -131,15 +135,15 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <section id="white-label" class="feature ipad">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6 col-sm-push-6 va-parent" data-0="transform: translateX(150%);opacity:0;" data-2400="transform: translateX(0%);opacity:1;">
+			<div class="col-sm-6 col-sm-push-6 va-parent" data-0="transform: translateX(150%);opacity:0;overflow:hidden;;" data-2400="transform: translateX(0%);opacity:1;">
 				<div class="va-wrapper">
 					<div class="va-inner">
-						<h3 class="text-success">White Label</h3>
-						<p class="lead">Upload your logo and colors and quote in the limelight.</p>
+						<h3 class="text-success">Census Data Collection</h3>
+						<p class="lead">Easily collect missing data in ways you've never imagined. You may even find it enjoyable.</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-sm-pull-6" data-0="transform: translateX(-150%);opacity:0;" data-2400="transform: translateX(0%);opacity:1;">
+			<div class="col-sm-6 col-sm-pull-6" data-0="transform: translateX(-150%);opacity:0;overflow:hidden;;" data-2400="transform: translateX(0%);opacity:1;">
 				<img src="themes/flat-ui/images/ipad-horizontal.svg" class="img-responsive" alt="iPad">
 			</div>
 		</div>
@@ -149,10 +153,10 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <!-- START: Testimonies -->
 <section id="testimonials">
 	<div class="container">
-		<h2 class="text-center" data-0="opacity:0" data-3100="opacity:1;">What agents using QuotePad are saying:</h2>
+		<h2 class="text-center" data-0="opacity:0;overflow:hidden;" data-3100="opacity:1;">What agents using QuotePad are saying:</h2>
 		<br>
 		<div class="row">
-			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-350%);opacity:0" data-3060="transform: translateX(0%);opacity:1;">
+			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-350%);opacity:0;overflow:hidden;" data-3060="transform: translateX(0%);opacity:1;">
 				<div class="row">
 					<div class="col-xs-8 col-sm-2 col-md-4 quote-headshot-container">
 						<div class="quote-headshot">
@@ -175,7 +179,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-250%);opacity:0" data-3030="transform: translateX(0%);opacity:1;">
+			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-250%);opacity:0;overflow:hidden;" data-3030="transform: translateX(0%);opacity:1;">
 				<div class="row">
 					<div class="col-xs-8 col-sm-2 col-md-4 quote-headshot-container">
 						<div class="quote-headshot">
@@ -198,7 +202,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-150%);opacity:0" data-3000="transform: translateX(0%);opacity:1;">
+			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-150%);opacity:0;overflow:hidden;" data-3000="transform: translateX(0%);opacity:1;">
 				<div class="row">
 					<div class="col-xs-8 col-sm-2 col-md-4 quote-headshot-container">
 						<div class="quote-headshot">
@@ -228,7 +232,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 <!-- START: Call to action -->
 <div id="signup" class="anchor"></div>
 <section id="sign-up" class="text-center bg-ll-blue-steel">
-	<div class="container" data-0="transform: translateY(-250%);opacity:0" data-3500="transform: translateY(0%);opacity:1;">
+	<div class="container" data-0="transform: translateY(-250%);opacity:0;overflow:hidden;" data-3500="transform: translateY(0%);opacity:1;">
 		<h3>Don't wait.  Innovate.</h3>
 		<div class="row">
 			<div class="col-sm-12 col-md-6 handheld-mb">
@@ -237,7 +241,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 				</p>
 				<img src="themes/flat-ui/images/ifamily.svg" class="img-responsive" alt="iFamily"> <br>
 				<div class="row brand-icons">
-					<div class="col-xs-2 col-sm-1 frame">
+					<div class="col-xs-2 col-sm-1 col-sm-offset-3 frame">
 						<div class="brand-icon">
 							<img src="themes/flat-ui/images/Apple_logo_black.svg" class="img-responsive" alt="Apple Logo">
 						</div>
@@ -249,22 +253,22 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 					</div>
 					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
-							<img src="themes/flat-ui/images/Chrome.svg" class="img-responsive" alt="Android Logo">
+							<img src="themes/flat-ui/images/Chrome.svg" class="img-responsive" alt="Chrome Logo">
 						</div>
 					</div>
 					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
-							<img src="themes/flat-ui/images/Safari.svg" class="img-responsive" alt="Android Logo">
+							<img src="themes/flat-ui/images/Safari.svg" class="img-responsive" alt="Safari Logo">
 						</div>
 					</div>
 					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
-							<img src="themes/flat-ui/images/ie.svg" class="img-responsive" alt="Android Logo">
+							<img src="themes/flat-ui/images/ie.svg" class="img-responsive" alt="IE Logo">
 						</div>
 					</div>
 					<div class="col-xs-2 col-sm-1 frame">
 						<div class="brand-icon">
-							<img src="themes/flat-ui/images/Firefox.svg" class="img-responsive" alt="Android Logo">
+							<img src="themes/flat-ui/images/Firefox.svg" class="img-responsive" alt="Firefox Logo">
 						</div>
 					</div>
 				</div>
