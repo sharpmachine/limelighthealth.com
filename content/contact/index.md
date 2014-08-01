@@ -19,7 +19,7 @@ Description: This description will go in the meta description tag
 					Redwood City, CA 94063
 				</address>
 				<address>
-					<span class="fui-location"></span> 1445 Victor Ave. Suite C <br>
+					<span class="fui-location"></span> 1445 Victor Ave., Suite C <br>
 					Redwood City, CA 96003
 				</address>
 			</div>

@@ -4,7 +4,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 */
 
 <!-- START: Jumbotron -->
-<div class="jumbotron bg-ll-gray-light">
+<div class="jumbotron">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12 col-md-6 col-lg-5">
@@ -20,7 +20,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 						<a href="#" class="btn btn-hg btn-success btn-embossed btn-block" data-toggle="modal" data-target="#myModal">Watch Video <span class="fui-triangle-right-large"></span></a>
 					</div>
 					<div class="col-sm-6">
-						<a href="#signup" class="btn btn-hg btn-warning btn-embossed btn-block">Get Invite <span class="fui-triangle-down"></span></a>
+						<a href="#signup" class="btn btn-hg btn-warning btn-embossed btn-block">Get Invited <span class="fui-triangle-down"></span></a>
 					</div>
 					<div class="col-xs-12 hidden-md">
 						<br><small><em>Coming to iOS, Android, and all modern browsers for laptops &amp; desktops</em></small>
@@ -300,6 +300,8 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 		</div>
 	</div>
 </section>
+
+<div id="skrollr-body"></div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
