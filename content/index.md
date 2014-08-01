@@ -301,8 +301,6 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 	</div>
 </section>
 
-<div id="skrollr-body"></div>
-
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	<div class="modal-dialog">
