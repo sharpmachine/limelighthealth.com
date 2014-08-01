@@ -154,7 +154,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 		<div class="row">
 			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-350%);opacity:0" data-3060="transform: translateX(0%);opacity:1;">
 				<div class="row">
-					<div class="col-xs-4 col-sm-2 col-md-4">
+					<div class="col-xs-8 col-sm-2 col-md-4 quote-headshot-container">
 						<div class="quote-headshot">
 							<img src="themes/flat-ui/images/jason.jpg" class="img-responsive img-circle" alt="testimonials">	
 						</div>
@@ -163,7 +163,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 							<div class="company">Affiliated Benefit Services</div>
 						</div>
 					</div>
-					<div class="col-xs-8 col-sm-10 col-md-8">
+					<div class="col-xs-12 col-sm-10 col-md-8">
 						<div class="quote-triangle"></div>
 						<div class="quote-quote">
 							<p><small>I am very excited about the functionality of QuotePad. To best serve our clients we need to provide thorough analysis and demonstrate creativity with prospective clients.</small></p>
@@ -177,7 +177,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			</div>
 			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-250%);opacity:0" data-3030="transform: translateX(0%);opacity:1;">
 				<div class="row">
-					<div class="col-xs-4 col-sm-2 col-md-4">
+					<div class="col-xs-8 col-sm-2 col-md-4 quote-headshot-container">
 						<div class="quote-headshot">
 							<img src="themes/flat-ui/images/garrett.jpg" class="img-responsive img-circle" alt="testimonials">	
 						</div>
@@ -186,7 +186,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 							<div class="company">SCI & Associates Insurance Services</div>
 						</div>
 					</div>
-					<div class="col-xs-8 col-sm-10 col-md-8">
+					<div class="col-xs-12 col-sm-10 col-md-8">
 						<div class="quote-triangle"></div>
 						<div class="quote-quote">
 							<p><small>Limelight just changed the game. My agency demands cutting-edge tools and this technology is exactly what we needed! We will love being in the Limelight with our clients.</small></p>
@@ -200,7 +200,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 			</div>
 			<div class="col-sm-12 col-md-4 quote handheld-mb" data-0="transform: translateX(-150%);opacity:0" data-3000="transform: translateX(0%);opacity:1;">
 				<div class="row">
-					<div class="col-xs-4 col-sm-2 col-md-4">
+					<div class="col-xs-8 col-sm-2 col-md-4 quote-headshot-container">
 						<div class="quote-headshot">
 							<img src="themes/flat-ui/images/michael.jpg" class="img-responsive img-circle" alt="testimonials">	
 						</div>
@@ -209,7 +209,7 @@ Description: We offer powerful technology, qualified sales leads and expert comp
 							<div class="company">Ross Rogers Insurance Services</div>
 						</div>
 					</div>
-					<div class="col-xs-8 col-sm-10 col-md-8">
+					<div class="col-xs-12 col-sm-10 col-md-8">
 						<div class="quote-triangle"></div>
 						<div class="quote-quote">
 							<p><small>It's about time! I've been waiting for a quote engine that is powerful, flexible and works in my office as well as on my mobile devices when I'm meeting with clients.</small></p>

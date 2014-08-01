@@ -130,12 +130,23 @@ h3 {
 	border-style: solid;
 	border-width: 7.5px 10px 7.5px 0;
 	border-color: transparent @quote-color transparent transparent;
+
+	@media (max-width: @screen-xs-max) {
+		top: 0px;
+		left: 50%;
+		border-width: 0 7.5px 10px 7.5px;
+		border-color: transparent transparent @quote-color transparent;
+	}
 }
 
 .quote-quote {
 	padding: 7.5px 15px;
 	background-color: @quote-color;
 	border-radius: 5px;
+
+	@media (max-width: @screen-xs-max) {
+		margin-top: 10px;
+	}
 
 	p {
 		margin-bottom: 0;
@@ -146,6 +157,13 @@ h3 {
 	img {
 		margin-bottom: 7.5px;
 		border: 2px solid @ll-orange;
+	}
+}
+
+.quote-headshot-container {
+	@media (max-width: @screen-xs-max) {
+		margin: 0 auto;
+		float: none;
 	}
 }
 
